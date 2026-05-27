@@ -1,7 +1,7 @@
 ---
 title: Hambantota International Port
 created: 2026-05-20
-updated: 2026-05-20
+updated: 2026-05-27
 type: entity
 tags: [infrastructure, port, debt, BRI, china-exim-bank, china-merchants-port]
 sources: [raw/papers/cari-chinese-lending-sri-lanka-2022.md, raw/papers/hkust-debt-trap-myth-sri-lanka-2019.md, raw/articles/jamestown-bri-blowback-sri-lanka-2022.md]
@@ -49,6 +49,12 @@ The first loan (2007) was at commercial rates (6.4%), but subsequent loans were 
 - CMPort pledged to spend $400-600 million on improvements including bunkering (fuel provision) and eventually container terminals.^[raw/papers/hkust-debt-trap-myth-sri-lanka-2019.md]
 - A planned industrial park is attracting enterprises. Hambantota is Sri Lanka's poorest district but aspires to become like China's Shekou port-park-city model.^[raw/papers/hkust-debt-trap-myth-sri-lanka-2019.md]
 - In the year of the lease, HIP loans accounted for only 2.4% of Sri Lanka's total foreign debt repayments.^[raw/papers/cari-chinese-lending-sri-lanka-2022.md]
+
+## 2025-2026: New Developments
+
+- **SINOPEC Oil Refinery**: In January 2026, during Chinese Foreign Minister Wang Yi's Colombo stopover, Sri Lanka confirmed the SINOPEC oil refinery agreement for Hambantota would be finalized in Q1 2026, enhancing the port hub's commercial prospects.
+- **Mattala Airport Lease**: In May 2026, Sri Lanka issued a fresh EoI for the adjacent Mattala Rajapaksa International Airport under a 30-year BOT model (deadline June 9, 2026). The offer includes 238 hectares for MRO facilities, flying schools, logistics, and industrial parks. India views this as a strategic opportunity to establish a presence near the Chinese-controlled port.
+- **Continued India-China Competition**: India's Mazagon Dock Shipbuilders acquired 51% of Colombo Dockyard PLC in April 2026, further intensifying India-China strategic competition in Sri Lanka's maritime infrastructure.
 
 ## Significance
 

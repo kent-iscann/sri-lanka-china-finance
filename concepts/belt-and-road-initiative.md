@@ -1,7 +1,7 @@
 ---
 title: Belt and Road Initiative in Sri Lanka
 created: 2026-05-20
-updated: 2026-05-20
+updated: 2026-05-27
 type: concept
 tags: [BRI, infrastructure, diplomacy, geopolitics]
 sources: [raw/papers/cari-chinese-lending-sri-lanka-2022.md, raw/papers/hkust-debt-trap-myth-sri-lanka-2019.md, raw/articles/jamestown-bri-blowback-sri-lanka-2022.md]
@@ -37,6 +37,24 @@ Sri Lanka occupies a central position in China's Belt and Road Initiative (BRI) 
 - Bangladesh has been careful to maintain healthy forex reserves; Nepal prefers grants over commercial loans.^[raw/articles/jamestown-bri-blowback-sri-lanka-2022.md]
 - China's initial reluctance to restructure Sri Lanka's debt was noted by other BRI borrowers.^[raw/articles/jamestown-bri-blowback-sri-lanka-2022.md]
 - Despite the crisis, developing countries' need for infrastructure financing means BRI engagement will likely continue, albeit more cautiously.^[raw/articles/jamestown-bri-blowback-sri-lanka-2022.md]
+
+## India-China Competition in Sri Lanka (2025-2026)
+
+The post-crisis period has seen intensified India-China competition for influence in Sri Lanka:
+
+- **India's Adani Group** entered the Colombo West International Container Terminal in 2021 ($700M, 35-year BOT), but subsequently withdrew from a wind power project in northern Sri Lanka after the Dissanayake government sought to renegotiate terms.
+- **India-Sri Lanka-UAE Trilateral Framework** (2025-2026): A trilateral partnership to develop Trincomalee as a regional energy hub, covering energy infrastructure, a potential pipeline, and a new refinery — an attempt to anchor Indian projects in a multilateral structure less susceptible to bilateral friction.
+- **Mazagon Dock's Colombo Dockyard acquisition** (April 2026): India's state-run MDL acquired 51% of Colombo Dockyard PLC, establishing a strategic Indian foothold in the Port of Colombo.
+- **Mattala Airport EoI** (May 2026): Sri Lanka's offer to lease the underutilized Mattala Airport near Hambantota has drawn Indian strategic interest as a way to establish presence near the Chinese-controlled port.
+- **SINOPEC Hambantota Refinery** (Q1 2026): China moved to finalize an oil refinery agreement in Hambantota, deepening its commercial stake in the port area.
+
+## Updated Debt Figures (December 2025)
+
+Sri Lankan treasury data published in 2026 revealed updated bilateral debt figures:
+- **China: USD 4.974 billion** — remains the largest bilateral creditor by a wide margin
+- **India: USD 0.984 billion**
+- Cumulative Chinese infrastructure investment (2006-2019): **USD 12.1 billion**
+- India's emergency financing following the 2022 crisis: **USD 4 billion**, plus **$450 million** in cyclone disaster relief
 
 ---
 

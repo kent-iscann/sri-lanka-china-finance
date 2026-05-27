@@ -116,3 +116,15 @@
 25. "Beyond Debt: China-Sri Lanka Economic Relations in a New Era" -- The Diplomat (January 2025)
     https://thediplomat.com/2025/01/beyond-debt-china-sri-lanka-economic-relations-in-a-new-era/
     Covers President Dissanayake's 2025 Beijing visit and the potential reset of economic relations post-default.
+
+26. "How Sri Lanka Balanced India and China Ties to Maximise Developmental Gains" -- South Asia Monitor (April 2026)
+    https://southasiamonitor.org/spotlight/how-sri-lanka-balanced-india-and-china-ties-maximise-developmental-gains
+    Provides updated debt figures (China: $4.974B, India: $0.984B as of Dec 2025), covers Wang Yi's Jan 2026 Colombo stopover, SINOPEC Hambantota refinery timeline, Adani's wind power exit, India-Sri Lanka-UAE Trincomalee trilateral, and Mazagon Dock's Colombo Dockyard acquisition.
+
+27. "Sri Lanka airport lease near China-controlled Hambantota port opens door for India" -- Rediff.com (May 17, 2026)
+    https://m.rediff.com/news/report/sri-lanka-airport-lease-near-china-controlled-hambantota-port-opens-door-for-india/20260517.htm
+    Reports on Sri Lanka's fresh EoI for Mattala Rajapaksa International Airport under a 30-year BOT model (deadline June 9, 2026), with 238 hectares of land for MRO, flying school, logistics, and industrial parks; notes India's strategic interest in countering Chinese presence near Hambantota.
+
+28. "Is Geopolitics ending the IMF's role as Lender of Last Resort?" -- STAIR Journal, Oxford (May 6, 2026)
+    https://www.stairjournal.com/oped/2026/5/6/31w58bh21z3ynuxzfl1u0g4jlyaqet
+    By Sri Lanka-based economist Talal Rafi. Analyzes China's challenge to IMF preferred creditor status during Sri Lanka's restructuring, China's rescue lending exceeding 40% of IMF lending (2018-2021), IMF voting share reform tensions (China 6.08% vs Japan 6.14%), and argues the IMF must reform to remain credible as China rises as an alternative lender of last resort.

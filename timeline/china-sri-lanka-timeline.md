@@ -1,7 +1,7 @@
 ---
 title: Timeline of China-Sri Lanka Financial Relations
 created: 2026-05-20
-updated: 2026-05-20
+updated: 2026-05-27
 type: timeline
 tags: [timeline, debt, infrastructure, diplomacy, politics, economics]
 sources: [raw/papers/cari-chinese-lending-sri-lanka-2022.md, raw/papers/hkust-debt-trap-myth-sri-lanka-2019.md, raw/articles/jamestown-bri-blowback-sri-lanka-2022.md]
@@ -101,6 +101,31 @@ Sri Lanka reached a bilateral agreement with France as part of ongoing Paris Clu
 
 ---
 
+## 2026 -- India-China Competition Intensifies in Post-Reform Sri Lanka
+
+### January 2026 -- Wang Yi's Colombo Stopover and SINOPEC Refinery
+Chinese Foreign Minister Wang Yi stopped over in Colombo on his return from Africa. During the visit, Sri Lanka's Foreign Minister confirmed that the agreement for the SINOPEC oil refinery in Hambantota would be finalized in the first quarter of 2026, significantly enhancing the financial prospects of the Hambantota port ecosystem.
+
+### March 2026 -- Sri Lankan Parliamentary Study Tour to India
+A delegation of Sri Lankan parliamentarians from the Sectoral Oversight Committee on Infrastructure and Strategic Development completed a week-long study tour of India, encouraging greater Indian investment in Sri Lanka's infrastructure sector. This reflects President Dissanayake's pragmatic strategy of balancing ties with both India and China.
+
+### April 2026 -- India's Mazagon Dock Acquires Colombo Dockyard
+India's state-run Mazagon Dock Shipbuilders Ltd (MDL) acquired a 51% controlling stake in Sri Lanka's Colombo Dockyard PLC, establishing a strategic Indian foothold in the Port of Colombo and strengthening India's Indian Ocean presence.
+
+### May 2026 -- Mattala Airport Lease Offer
+Sri Lanka issued a fresh Expression of Interest (EoI) inviting foreign investors to take over the Mattala Rajapaksa International Airport (MRIA) in Hambantota under a 30-year build-operate-transfer model. The EoI includes two independent tracks: aerodrome operations and landside development of 238 hectares for MRO facilities, flying schools, logistics parks, solar installations, and industrial parks. The EoI deadline is June 9, 2026. India views this as a strategic opportunity to establish a presence near the China-controlled Hambantota port.
+
+### May 2026 -- STAIR Journal: "Is Geopolitics ending the IMF's Role?"
+Sri Lanka-based economist Talal Rafi published an op-ed in Oxford's STAIR Journal arguing that China's rise as the world's largest bilateral lender (Chinese rescue lending exceeded 40% of IMF lending from 2018-2021) is challenging the IMF's role as a neutral lender of last resort. Key points: China delayed IMF financing assurances for Sri Lanka by arguing multilateral debt should also be重构; China's 2021 bailouts totaled $40B; IMF voting share reform remains contentious (China 6.08% vs Japan 6.14% despite China's economy being 4x larger). The US retains veto power at 16.49% voting share against the 85% supermajority threshold.
+
+### December 2025 Statistics -- Updated Bilateral Debt Figures (Published April 2026)
+Updated Sri Lankan treasury data revealed bilateral debt figures as of December 2025:
+- Outstanding debt to China: **USD 4.974 billion**
+- Outstanding debt to India: **USD 0.984 billion**
+This confirms China remains Sri Lanka's largest bilateral creditor by a wide margin.
+
+---
+
 ## Key Statistics
 
 | Metric | Value | Source |
@@ -118,5 +143,10 @@ Sri Lanka reached a bilateral agreement with France as part of ongoing Paris Clu
 | Usable forex reserves (May 2022) | $50 million | Jamestown |
 | IMF Extended Fund Facility | $2.9 billion | Timeline |
 | Bondholder agreement participation rate | 98% | Timeline |
+| **Outstanding bilateral debt to China (Dec 2025)** | **$4.974 billion** | **South Asia Monitor / Sri Lanka Treasury** |
+| **Outstanding bilateral debt to India (Dec 2025)** | **$0.984 billion** | **South Asia Monitor / Sri Lanka Treasury** |
+| **Cumulative Chinese infrastructure investment (2006-2019)** | **$12.1 billion** | **South Asia Monitor** |
+| **India's emergency financing post-crisis** | **$4 billion** | **South Asia Monitor** |
+| **India's disaster relief (Cyclone Ditwah)** | **$450 million** | **South Asia Monitor** |
 
 See also: [[debt-trap-debate]], [[hambantota-port]], [[belt-and-road-initiative]], [[key-conclusions]]
