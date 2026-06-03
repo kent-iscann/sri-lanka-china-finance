@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Convert a Watch Report markdown file to a styled PDF.
-Usage: python3 watch-report-to-pdf.py <input.md> <output.pdf>
+Usage: python3 watch-report-to-pdf.py <input.md> <output.pdf> [previous.md]
+  previous.md — optional previous watch report for probability delta comparison
 """
 import sys
 import re
@@ -22,31 +23,97 @@ def unbold(text):
     return text.strip()
 
 
-def parse_watch_report(md_path):
+def extract_prob(text):
+    """Extract probability number from text like '70%' or '70% (up from 65%)'."""
+    m = re.search(r'(\d+)%', text)
+    return m.group(1) if m else ''
+
+
+def extract_prob_delta(text):
+    """Extract delta info like '(up from 65%)' or '(down from 65%)'."""
+    m = re.search(r'\((up|down)\s+from\s+(\d+)%\)', text, re.IGNORECASE)
+    if m:
+        return m.group(1).lower(), m.group(2)
+    return None, None
+
+
+def parse_watch_report(md_path, prev_md_path=None):
     with open(md_path, 'r') as f:
         content = f.read()
 
     m = re.search(r'Watch Report (\d{2}-\d{2}-\d{4})', md_path)
     report_date = m.group(1) if m else datetime.now().strftime('%d-%m-%Y')
 
+    # ---- Prediction section ----
     pred_match = re.search(r'## Prediction\s*\n(.*?)(?=\n---)', content, re.DOTALL)
     pred_raw = pred_match.group(1).strip() if pred_match else ''
     pred_clean = unbold(pred_raw)
 
-    prob_m = re.search(r'Probability\s*:\s*(\d+)%', pred_clean)
-    probability = prob_m.group(1) if prob_m else ''
+    # Extract probability
+    prob_line = re.search(r'Probability\s*:\s*(.+)', pred_clean)
+    prob_text = prob_line.group(1).strip() if prob_line else ''
+    probability = extract_prob(prob_text)
+    delta_dir, delta_from = extract_prob_delta(prob_text)
 
+    # If no inline delta, check previous report for comparison
+    if not delta_dir and prev_md_path:
+        try:
+            with open(prev_md_path, 'r') as f:
+                prev_content = f.read()
+            prev_pred = re.search(r'## Prediction\s*\n(.*?)(?=\n---)', prev_content, re.DOTALL)
+            if prev_pred:
+                prev_clean = unbold(prev_pred.group(1))
+                prev_prob_m = re.search(r'Probability\s*:\s*(.+)', prev_clean)
+                if prev_prob_m:
+                    prev_prob = extract_prob(prev_prob_m.group(1))
+                    if prev_prob and probability:
+                        diff = int(probability) - int(prev_prob)
+                        if diff > 0:
+                            delta_dir, delta_from = "up", prev_prob
+                        elif diff < 0:
+                            delta_dir, delta_from = "down", prev_prob
+        except (FileNotFoundError, ValueError):
+            pass
+
+    # Extract target date
     target_m = re.search(r'Target\s+Date\s*:\s*(.+?)(?:\n|$)', pred_clean)
     target_date = target_m.group(1).strip() if target_m else ''
 
-    body_lines = []
+    # Prediction statement = first sentence only (up to first period within the first line/paragraph)
+    # Remove meta lines first
+    cleaned_lines = []
     for line in pred_clean.split('\n'):
         if re.match(r'(Probability|Target\s+Date)\s*:', line, re.IGNORECASE):
             continue
         if line.strip():
-            body_lines.append(line.strip())
-    paragraphs = [' '.join(body_lines)] if body_lines else []
+            cleaned_lines.append(line.strip())
 
+    full_text = ' '.join(cleaned_lines)
+    # Take first sentence
+    first_sentence = re.split(r'(?<=[.!?])\s+', full_text)[0].strip()
+
+    # ---- What's New section ----
+    whatsnew_match = re.search(r"## What[-\xe2\x80\x99']?s New\s*\n(.*?)(?=\n---|\n## )", content, re.DOTALL)
+    whatsnew_html = ''
+    if whatsnew_match:
+        raw = unbold(whatsnew_match.group(1).strip())
+        whatsnew_html = '<div class="whats-new">\n'
+        whatsnew_html += '<h3>What&rsquo;s New</h3>\n'
+        # Check if content uses bullet points
+        if raw.startswith('- '):
+            items = re.findall(r'^\s*-\s+(.+?)(?=\n\s*-|\Z)', raw, re.MULTILINE | re.DOTALL)
+            whatsnew_html += '<ul>\n'
+            for item in items:
+                item_text = ' '.join(item.strip().split())
+                whatsnew_html += f'<li>{item_text}</li>\n'
+            whatsnew_html += '</ul>\n'
+        else:
+            paragraphs = [p.strip() for p in re.split(r'\n\s*\n', raw) if p.strip()]
+            for p in paragraphs:
+                whatsnew_html += f'<p>{p}</p>\n'
+        whatsnew_html += '</div>'
+
+    # ---- Justification (Analysis) section ----
     just_match = re.search(r'## Justification\s*\n(.*?)(?=\n---|\n## Key Sources)', content, re.DOTALL)
     justification = []
     if just_match:
@@ -67,16 +134,24 @@ def parse_watch_report(md_path):
         'report_date': report_date,
         'probability': probability,
         'target_date': target_date,
-        'prediction_paragraphs': paragraphs,
+        'delta_dir': delta_dir,
+        'delta_from': delta_from,
+        'prediction_sentence': first_sentence,
+        'whatsnew_html': whatsnew_html,
         'justification': justification,
     }
 
 
-def generate_pdf(md_path, output_path):
-    s = parse_watch_report(md_path)
+def generate_pdf(md_path, output_path, prev_md_path=None):
+    s = parse_watch_report(md_path, prev_md_path)
 
-    pred_html = '\n'.join(f'<p>{p}</p>' for p in s['prediction_paragraphs'] if p)
+    # Probability delta indicator
+    delta_html = ''
+    if s['delta_dir'] and s['delta_from']:
+        arrow = '&#9650;' if s['delta_dir'] == 'up' else '&#9660;'
+        delta_html = f'<span class="prob-delta">{arrow} from {s["delta_from"]}%</span>'
 
+    # Analysis HTML
     analysis_html = ''
     for sub in s['justification']:
         analysis_html += f'<h3>{sub["title"]}</h3>\n'
@@ -212,11 +287,64 @@ body {{
     margin-top: 3mm;
 }}
 
+.prob-delta {{
+    font-size: 10pt;
+    font-weight: 600;
+    opacity: 0.9;
+    margin-top: 2mm;
+    display: block;
+}}
+
 .prob-target {{
     font-size: 11pt;
     font-weight: 400;
     opacity: 0.85;
-    margin-top: 4mm;
+    margin-top: 3mm;
+}}
+
+/* ── What's New ── */
+.whats-new {{
+    background: #f5f5f5;
+    border-left: 4px solid #b71c1c;
+    padding: 6mm 20mm;
+}}
+
+.whats-new h3 {{
+    font-size: 10pt;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 3mm;
+    color: #0a0a0a;
+}}
+
+.whats-new p {{
+    font-size: 9pt;
+    line-height: 1.7;
+    color: #2a2a2a;
+    margin-bottom: 2mm;
+}}
+
+.whats-new p:last-child {{
+    margin-bottom: 0;
+}}
+
+.whats-new ul {{
+    list-style-type: square;
+    padding-left: 5mm;
+    margin: 0;
+}}
+
+.whats-new li {{
+    font-size: 9pt;
+    line-height: 1.7;
+    color: #2a2a2a;
+    margin-bottom: 3mm;
+    padding-left: 2mm;
+}}
+
+.whats-new li:last-child {{
+    margin-bottom: 0;
 }}
 
 /* ── Analysis ── */
@@ -275,17 +403,22 @@ body {{
     <div class="header-date">{s['report_date']}</div>
 </div>
 
+<!-- Prediction -->
 <div class="prediction">
     <div class="pred-body">
-        {pred_html}
+        <p>{s['prediction_sentence']}</p>
     </div>
     <div class="prob-box">
         <div class="prob-number">{prob}<span class="prob-pct">%</span></div>
         <div class="prob-label">Probability</div>
+        {delta_html}
         <div class="prob-target">Target: {target}</div>
     </div>
 </div>
 
+{ s['whatsnew_html'] }
+
+<!-- Analysis -->
 <div class="analysis">
     <h2>Analysis</h2>
     {analysis_html}
@@ -300,6 +433,7 @@ body {{
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
-        print("Usage: python3 watch-report-to-pdf.py <input.md> <output.pdf>")
+        print("Usage: python3 watch-report-to-pdf.py <input.md> <output.pdf> [previous.md]")
         sys.exit(1)
-    generate_pdf(sys.argv[1], sys.argv[2])
+    prev = sys.argv[3] if len(sys.argv) > 3 else None
+    generate_pdf(sys.argv[1], sys.argv[2], prev)
