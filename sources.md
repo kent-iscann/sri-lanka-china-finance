@@ -128,3 +128,15 @@
 28. "Is Geopolitics ending the IMF's role as Lender of Last Resort?" -- STAIR Journal, Oxford (May 6, 2026)
     https://www.stairjournal.com/oped/2026/5/6/31w58bh21z3ynuxzfl1u0g4jlyaqet
     By Sri Lanka-based economist Talal Rafi. Analyzes China's challenge to IMF preferred creditor status during Sri Lanka's restructuring, China's rescue lending exceeding 40% of IMF lending (2018-2021), IMF voting share reform tensions (China 6.08% vs Japan 6.14%), and argues the IMF must reform to remain credible as China rises as an alternative lender of last resort.
+
+---
+
+## Post-Crisis Developments, Geopolitics, and Multilateral Institutions
+
+29. "Sri Lanka: Background and Issues for Congress" -- Congressional Research Service (CRS), USA (updated regularly; June 2026 version)
+    https://www.congress.gov/crs-product/IF10213
+    Authoritative CRS report with comprehensive coverage of post-crisis Sri Lanka: Dissanayake/NPP 2024 election landslide (3→159 seats), India-Sri Lanka defense cooperation agreement (2025), India's total investment exceeding $2B, Cyclone Ditwah response, 2024 GDP growth of 5%, IMF $700M disbursement in April 2026, and the US Congressional role in shaping Sri Lanka policy.
+
+30. "Australia should see Sri Lanka as more than a China-India contest" -- Lowy Institute (May 14, 2026)
+    https://www.lowyinstitute.org/the-interpreter/australia-should-see-sri-lanka-more-china-india-contest
+    By Dr. Kulani Wijayabahu (University of Colombo). Argues Sri Lanka's post-crisis recovery is a test case for small-state autonomy. Provides specific details on the January 2025 China-Sri Lanka joint statement on BRI cooperation (logistics, green development, digital economy), the 2025 IORA-BIMSTEC memorandum, Colombo Security Conclave, and Trincomalee energy hub development. Key source for understanding the multilateral competition beyond binary China-India framing.

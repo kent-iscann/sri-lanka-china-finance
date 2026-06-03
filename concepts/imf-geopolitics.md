@@ -1,7 +1,7 @@
 ---
 title: IMF, China, and Sri Lanka's Debt Restructuring
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-03
 type: concept
 tags: [IMF, debt restructuring, geopolitics, China-US rivalry, creditor governance, voting shares]
 sources: [raw/articles/stair-imf-geopolitics-2026.md]
@@ -47,6 +47,10 @@ Economist Talal Rafi (a Sri Lanka-based policy advisor and former ADB consultant
 1. **Independent decision-making**: Clear, transparent frameworks to prevent political influence over bailout decisions.
 2. **Voting share reform**: Adjust quotas to reflect modern economic realities (particularly China's larger share).
 3. **Agreed debt restructuring framework**: A G20-level agreement on multilateral debt restructuring, transparency, and comparability of treatment to prevent future Sri Lanka-style standoffs between the US and China.
+
+## April 2026: IMF Approves $700M Disbursement
+
+In April 2026, the IMF provisionally approved the disbursement of approximately **$700 million** following its combined fifth and sixth reviews of Sri Lanka's performance under the Extended Fund Facility (EFF) arrangement. This continued disbursement reflects the IMF's assessment that Sri Lanka's reform program remains on track, with macroeconomic stabilization progressing and GDP growth reaching 5% in 2024. However, the IMF and analysts note that poverty reduction and medium-term growth challenges remain significant.
 
 ---
 

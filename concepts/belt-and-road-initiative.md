@@ -1,7 +1,7 @@
 ---
 title: Belt and Road Initiative in Sri Lanka
 created: 2026-05-20
-updated: 2026-05-27
+updated: 2026-06-03
 type: concept
 tags: [BRI, infrastructure, diplomacy, geopolitics]
 sources: [raw/papers/cari-chinese-lending-sri-lanka-2022.md, raw/papers/hkust-debt-trap-myth-sri-lanka-2019.md, raw/articles/jamestown-bri-blowback-sri-lanka-2022.md]
@@ -46,7 +46,18 @@ The post-crisis period has seen intensified India-China competition for influenc
 - **India-Sri Lanka-UAE Trilateral Framework** (2025-2026): A trilateral partnership to develop Trincomalee as a regional energy hub, covering energy infrastructure, a potential pipeline, and a new refinery — an attempt to anchor Indian projects in a multilateral structure less susceptible to bilateral friction.
 - **Mazagon Dock's Colombo Dockyard acquisition** (April 2026): India's state-run MDL acquired 51% of Colombo Dockyard PLC, establishing a strategic Indian foothold in the Port of Colombo.
 - **Mattala Airport EoI** (May 2026): Sri Lanka's offer to lease the underutilized Mattala Airport near Hambantota has drawn Indian strategic interest as a way to establish presence near the Chinese-controlled port.
-- **SINOPEC Hambantota Refinery** (Q1 2026): China moved to finalize an oil refinery agreement in Hambantota, deepening its commercial stake in the port area.
+|- **SINOPEC Hambantota Refinery** (Q1 2026): China moved to finalize an oil refinery agreement in Hambantota, deepening its commercial stake in the port area.
+
+## January 2025 China-Sri Lanka Joint Statement on BRI Cooperation
+Following President Dissanayake's January 2025 Beijing visit, China and Sri Lanka issued a joint statement reaffirming Belt and Road cooperation in specific areas: Hambantota, Colombo Port City, logistics, green development, and the digital economy. This signals China's intent to continue deepening economic engagement despite Sri Lanka's debt restructuring.^[Lowy Institute, May 14, 2026]
+
+## Regional Institutional Developments (2025)
+- **IORA-BIMSTEC Memorandum (2025)**: The Indian Ocean Rim Association and Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation signed a memorandum linking Indian Ocean and Bay of Bengal regional frameworks, providing new multilateral channels for Sri Lanka's engagement.
+- **Colombo Security Conclave**: India's Colombo Security Conclave is shaping broader Indian Ocean security architecture, adding a security dimension to the India-China competition in Sri Lanka. After Cyclone Ditwah devastated Sri Lanka in 2025, India and Sri Lanka signed their first formalized bilateral defense cooperation agreement.
+- **Trincomalee Energy Hub**: The proposed India-UAE development of Trincomalee as a regional energy hub extends Sri Lanka's strategic value beyond ports to fuel infrastructure, pipelines, and energy resilience.
+
+## India's Total Investment in Sri Lanka
+According to the U.S. Congressional Research Service (2026), total Indian investment in Sri Lanka exceeds **$2 billion**, making India one of the country's largest foreign investors alongside China. Sri Lanka's 2024 GDP growth reached **5%**.
 
 ## Updated Debt Figures (December 2025)
 

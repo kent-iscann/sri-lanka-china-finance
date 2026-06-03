@@ -40,3 +40,18 @@
   - Intensifying India-China competition creates both push and pull factors for Chinese re-engagement
 - **Confidence level: Medium**
 - Watch report: Watch Report 01-06-2026.md
+
+## [2026-06-03] ingest | CRS Report IF10213 + Lowy Institute Analysis (2 new sources)
+
+- **Source #29**: "Sri Lanka: Background and Issues for Congress" -- CRS Report IF10213 (Congress.gov). Authoritative US government source providing comprehensive post-crisis facts: NPP electoral landslide (3→159 seats), India-Sri Lanka defense cooperation agreement (2025), Cyclone Ditwah devastation and Indian response, India's total investment >$2B, 2024 GDP growth of 5%, IMF $700M disbursement (April 2026, 5th/6th reviews), and US Congressional policy role.
+
+- **Source #30**: "Australia should see Sri Lanka as more than a China-India contest" -- Lowy Institute (May 14, 2026). By Dr. Kulani Wijayabahu. Key findings: detailed specifics from January 2025 China-Sri Lanka joint statement on BRI (logistics, green development, digital economy), 2025 IORA-BIMSTEC memorandum, Colombo Security Conclave as India's Indian Ocean security architecture, Trincomalee energy hub extending beyond ports.
+
+- **Wiki pages updated**:
+  - timeline/china-sri-lanka-timeline.md: Added 5 new timeline entries (Lowy Institute May 2026, IMF April 2026 disbursement, NPP 2024 election, India-Sri Lanka defense cooperation 2025). Added 4 new statistics to key statistics table.
+  - concepts/belt-and-road-initiative.md: Added January 2025 joint statement details, regional institutional developments (IORA-BIMSTEC, Colombo Security Conclave, Trincomalee energy hub), India investment figure.
+  - concepts/imf-geopolitics.md: Added April 2026 IMF $700M disbursement entry.
+  - sources.md: Added 2 new source entries (total now 30).
+  - index.md: Updated last-updated date and added source count.
+
+- **Total sources**: 28 → 30

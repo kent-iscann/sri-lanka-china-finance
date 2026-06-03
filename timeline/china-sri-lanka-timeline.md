@@ -1,7 +1,7 @@
 ---
 title: Timeline of China-Sri Lanka Financial Relations
 created: 2026-05-20
-updated: 2026-05-27
+updated: 2026-06-03
 type: timeline
 tags: [timeline, debt, infrastructure, diplomacy, politics, economics]
 sources: [raw/papers/cari-chinese-lending-sri-lanka-2022.md, raw/papers/hkust-debt-trap-myth-sri-lanka-2019.md, raw/articles/jamestown-bri-blowback-sri-lanka-2022.md]
@@ -116,7 +116,23 @@ India's state-run Mazagon Dock Shipbuilders Ltd (MDL) acquired a 51% controlling
 Sri Lanka issued a fresh Expression of Interest (EoI) inviting foreign investors to take over the Mattala Rajapaksa International Airport (MRIA) in Hambantota under a 30-year build-operate-transfer model. The EoI includes two independent tracks: aerodrome operations and landside development of 238 hectares for MRO facilities, flying schools, logistics parks, solar installations, and industrial parks. The EoI deadline is June 9, 2026. India views this as a strategic opportunity to establish a presence near the China-controlled Hambantota port.
 
 ### May 2026 -- STAIR Journal: "Is Geopolitics ending the IMF's Role?"
-Sri Lanka-based economist Talal Rafi published an op-ed in Oxford's STAIR Journal arguing that China's rise as the world's largest bilateral lender (Chinese rescue lending exceeded 40% of IMF lending from 2018-2021) is challenging the IMF's role as a neutral lender of last resort. Key points: China delayed IMF financing assurances for Sri Lanka by arguing multilateral debt should also be重构; China's 2021 bailouts totaled $40B; IMF voting share reform remains contentious (China 6.08% vs Japan 6.14% despite China's economy being 4x larger). The US retains veto power at 16.49% voting share against the 85% supermajority threshold.
+Sri Lanka-based economist Talal Rafi published an op-ed in Oxford's STAIR Journal arguing that China's rise as the world's largest bilateral lender (Chinese rescue lending exceeded 40% of IMF lending from 2018-2021) is challenging the IMF's role as a neutral lender of last resort. Key points: China delayed IMF financing assurances for Sri Lanka by arguing multilateral debt should also be restructured; China's 2021 bailouts totaled $40B; IMF voting share reform remains contentious (China 6.08% vs Japan 6.14% despite China's economy being 4x larger). The US retains veto power at 16.49% voting share against the 85% supermajority threshold.
+
+### May 14, 2026 -- Lowy Institute: "Australia should see Sri Lanka as more than a China-India contest"
+Dr. Kulani Wijayabahu (University of Colombo) published an analysis in the Lowy Institute's Interpreter arguing that Sri Lanka's post-crisis recovery represents a test case for whether small Indian Ocean states can rebuild institutional autonomy amid great-power competition. Key new details:
+- China's January 2025 joint statement with Sri Lanka specifically reaffirmed BRI cooperation in Hambantota, Colombo Port City, logistics, green development, and the digital economy.
+- The 2025 IORA-BIMSTEC memorandum formally links Indian Ocean and Bay of Bengal regional frameworks.
+- Colombo Security Conclave is shaping India's broader Indian Ocean security architecture.
+- India-UAE development of Trincomalee as an energy hub extends Sri Lanka's strategic value beyond ports to fuel, pipelines, and energy resilience.
+
+### April 2026 -- IMF Approves $700M Disbursement After Fifth and Sixth Reviews
+The IMF provisionally approved the disbursement of approximately $700 million following its combined fifth and sixth reviews of Sri Lanka's performance under the Extended Fund Facility arrangement, signaling continued confidence in the country's reform progress and macroeconomic stabilization.
+
+### 2024 -- NPP Electoral Landslide and Dissanayake's Presidency
+The National People's Power (NPP) alliance, a coalition of socialist parties led by Anura Kumara Dissanayake's Janatha Vimuktha Peramuna (JVP), won a supermajority in snap parliamentary elections in November 2024, securing 159 of 225 seats (up from just 3 seats in the previous parliament). The victory was widely interpreted as public rejection of the corrupt, elite-dominated political status quo and the leaders associated with Sri Lanka's economic collapse. Despite campaigning against IMF reforms, Dissanayake maintained the existing program, arguing recovery was too fragile to risk disruption. Sri Lanka's GDP grew 5% in 2024.
+
+### 2025 -- India-Sri Lanka Defense Cooperation Agreement
+India and Sri Lanka signed their first formalized framework for bilateral security relations, deepening defense ties. This followed India being Sri Lanka's most active supporter during the 2022 twin crises and after Cyclone Ditwah devastated Sri Lanka in 2025. India's total investment in Sri Lanka exceeded $2 billion.
 
 ### December 2025 Statistics -- Updated Bilateral Debt Figures (Published April 2026)
 Updated Sri Lankan treasury data revealed bilateral debt figures as of December 2025:
@@ -143,10 +159,14 @@ This confirms China remains Sri Lanka's largest bilateral creditor by a wide mar
 | Usable forex reserves (May 2022) | $50 million | Jamestown |
 | IMF Extended Fund Facility | $2.9 billion | Timeline |
 | Bondholder agreement participation rate | 98% | Timeline |
-| **Outstanding bilateral debt to China (Dec 2025)** | **$4.974 billion** | **South Asia Monitor / Sri Lanka Treasury** |
-| **Outstanding bilateral debt to India (Dec 2025)** | **$0.984 billion** | **South Asia Monitor / Sri Lanka Treasury** |
-| **Cumulative Chinese infrastructure investment (2006-2019)** | **$12.1 billion** | **South Asia Monitor** |
-| **India's emergency financing post-crisis** | **$4 billion** | **South Asia Monitor** |
-| **India's disaster relief (Cyclone Ditwah)** | **$450 million** | **South Asia Monitor** |
+|| **Outstanding bilateral debt to China (Dec 2025)** | **$4.974 billion** | **South Asia Monitor / Sri Lanka Treasury** |
+|| **Outstanding bilateral debt to India (Dec 2025)** | **$0.984 billion** | **South Asia Monitor / Sri Lanka Treasury** |
+|| **Cumulative Chinese infrastructure investment (2006-2019)** | **$12.1 billion** | **South Asia Monitor** |
+|| **India's emergency financing post-crisis** | **$4 billion** | **South Asia Monitor** |
+|| **India's disaster relief (Cyclone Ditwah)** | **$450 million** | **South Asia Monitor** |
+|| **India's total investment in Sri Lanka** | **>$2 billion** | **CRS Report IF10213 (2026)** |
+|| **Sri Lanka GDP growth (2024)** | **5%** | **World Bank / CRS Report IF10213** |
+|| **IMF EFF disbursement (April 2026, 5th/6th reviews)** | **~$700 million** | **IMF PR26113** |
+|| **NPP parliamentary seats (Nov 2024)** | **159/225 (from 3)** | **CRS Report IF10213** |
 
 See also: [[debt-trap-debate]], [[hambantota-port]], [[belt-and-road-initiative]], [[key-conclusions]]
