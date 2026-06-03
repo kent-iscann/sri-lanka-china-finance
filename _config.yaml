@@ -1,0 +1,14 @@
+topics:
+  - name: "Sri Lanka-China"
+    slug: "sri-lanka-china"
+    path: "/root/wiki/sri-lanka-china"
+    created: "2026-05-20"
+    search_queries:
+      - "Sri Lanka China debt restructuring 2025 2026"
+      - "Sri Lanka China Belt and Road new projects"
+      - "Sri Lanka China bilateral loan agreement"
+      - "Sri Lanka China Hambantota port latest"
+      - "Sri Lanka China IMF creditor negotiations"
+    cron_jobs:
+      weekly_source_monitor: "59bd5148c4da"
+      monthly_watch_report: "90f1ad1706cb"
