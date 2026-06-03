@@ -2,13 +2,18 @@
 
 ## Prediction
 
-Sri Lanka will sign a new bilateral infrastructure financing agreement with China within the next 18 months, signaling a post-crisis normalization of economic ties despite lingering public skepticism and intensifying Indian strategic competition. The SINOPEC Hambantota refinery deal — confirmed for finalization in Q1 2026 — serves as a leading indicator that major Chinese commercial commitments are resuming despite India's parallel push into Sri Lankan maritime infrastructure.
+Sri Lanka will sign a new bilateral infrastructure financing agreement with China within the next 18 months, signaling a post-crisis normalization of economic ties despite lingering public skepticism and Indian strategic competition.
 
 **Target Date:** November 2027
 
 **Probability:** 70% (up from 65%)
 
 ---
+
+## What's New
+
+- The SINOPEC Hambantota refinery deal — confirmed for finalization in Q1 2026 — serves as a leading indicator that major Chinese commercial commitments are resuming despite India's parallel push into Sri Lankan maritime infrastructure.
+- Probability increased from 65% to 70%
 
 ## Justification
 
