@@ -45,7 +45,7 @@ def parse_watch_report(md_path, prev_md_path=None):
     report_date = m.group(1) if m else datetime.now().strftime('%d-%m-%Y')
 
     # ---- Prediction section ----
-    pred_match = re.search(r'## Prediction\s*\n(.*?)(?=\n---)', content, re.DOTALL)
+    pred_match = re.search(r'## Prediction\s*\n(.*?)(?=\n---|\n## )', content, re.DOTALL)
     pred_raw = pred_match.group(1).strip() if pred_match else ''
     pred_clean = unbold(pred_raw)
 
