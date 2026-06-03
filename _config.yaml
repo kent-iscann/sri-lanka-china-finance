@@ -12,3 +12,19 @@ topics:
     cron_jobs:
       weekly_source_monitor: "59bd5148c4da"
       monthly_watch_report: "90f1ad1706cb"
+  - name: "China-Southern Africa"
+    slug: "china-southern-africa"
+    path: "/root/wiki/china-southern-africa"
+    created: "2026-06-03"
+    search_queries:
+      - "China infrastructure investment Southern Africa minerals 2025 2026"
+      - "China mining projects Southern Africa cobalt lithium copper"
+      - "Belt and Road Southern Africa mineral access"
+      - "China Zambia DRC mining infrastructure deals"
+      - "Chinese construction projects Southern Africa resource extraction"
+      - "China Southern Africa ports railways mineral exports"
+      - "China Zimbabwe platinum lithium investments"
+      - "China Mozambique Tanzania infrastructure minerals"
+    cron_jobs:
+      weekly_source_monitor: "e4c42eb7e604"
+      monthly_watch_report: "1f42aa60b65a"
