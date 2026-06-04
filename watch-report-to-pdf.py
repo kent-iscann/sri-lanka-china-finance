@@ -17,9 +17,10 @@ except ImportError:
     from weasyprint import HTML
 
 
-def unbold(text):
-    text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
-    text = re.sub(r'\*(.+?)\*', r'\1', text)
+def convert_markdown(text):
+    """Convert markdown bold/italic to HTML tags."""
+    text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+    text = re.sub(r'\*(.+?)\*', r'<em>\1</em>', text)
     return text.strip()
 
 
@@ -47,7 +48,7 @@ def parse_watch_report(md_path, prev_md_path=None):
     # ---- Prediction section ----
     pred_match = re.search(r'## Prediction\s*\n(.*?)(?=\n---|\n## )', content, re.DOTALL)
     pred_raw = pred_match.group(1).strip() if pred_match else ''
-    pred_clean = unbold(pred_raw)
+    pred_clean = convert_markdown(pred_raw)
 
     # Extract probability
     prob_line = re.search(r'Probability\s*:\s*(.+)', pred_clean)
@@ -62,7 +63,7 @@ def parse_watch_report(md_path, prev_md_path=None):
                 prev_content = f.read()
             prev_pred = re.search(r'## Prediction\s*\n(.*?)(?=\n---)', prev_content, re.DOTALL)
             if prev_pred:
-                prev_clean = unbold(prev_pred.group(1))
+                prev_clean = convert_markdown(prev_pred.group(1))
                 prev_prob_m = re.search(r'Probability\s*:\s*(.+)', prev_clean)
                 if prev_prob_m:
                     prev_prob = extract_prob(prev_prob_m.group(1))
@@ -95,12 +96,14 @@ def parse_watch_report(md_path, prev_md_path=None):
     full_text = ' '.join(cleaned_lines)
     # Take first sentence
     first_sentence = re.split(r'(?<=[.!?])\s+', full_text)[0].strip()
+    # Strip any HTML tags from the prediction sentence (it's rendered as plain text)
+    first_sentence = re.sub(r'<[^>]+>', '', first_sentence)
 
     # ---- What's New section ----
     whatsnew_match = re.search(r"## What[-\xe2\x80\x99']?s New\s*\n(.*?)(?=\n---|\n## )", content, re.DOTALL)
     whatsnew_html = ''
     if whatsnew_match:
-        raw = unbold(whatsnew_match.group(1).strip())
+        raw = convert_markdown(whatsnew_match.group(1).strip())
         whatsnew_html = '<div class="whats-new">\n'
         whatsnew_html += '<h3>What&rsquo;s New</h3>\n'
         # Check if content uses bullet points
@@ -129,8 +132,8 @@ def parse_watch_report(md_path, prev_md_path=None):
                 continue
             hm = re.match(r'^### (.+?)\s*\n', part, re.MULTILINE)
             if hm:
-                title = unbold(hm.group(1).strip())
-                body = unbold(part[hm.end():].strip())
+                title = convert_markdown(hm.group(1).strip())
+                body = convert_markdown(part[hm.end():].strip())
                 paras = [p.strip() for p in re.split(r'\n\s*\n', body) if p.strip()]
                 justification.append({'title': title, 'paragraphs': paras})
 
