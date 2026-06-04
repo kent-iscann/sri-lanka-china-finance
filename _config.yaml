@@ -58,5 +58,5 @@ topics:
       - "Kazakhstan Caspian energy geopolitics 2025 2026"
       - "Tokayev multi-vector foreign policy 2025 2026"
     cron_jobs:
-      weekly_source_monitor: ""
-      monthly_watch_report: ""
+      weekly_source_monitor: "588924b68bde"
+      monthly_watch_report: "4f247c08fda0"
