@@ -68,7 +68,8 @@ topics:
    │   └── <slug>-timeline.md  (from templates/timeline.md)
    ├── entities/
    ├── concepts/
-   └── Watch Reports/
+   ├── Watch Reports/
+   └── watch-reports-summary.md  (new — summary of all watch reports for this topic)
    ```
 
 3. **Seed initial research:**
@@ -87,9 +88,17 @@ topics:
 
 5. **Generate the PDF** using the shared script:
    ```bash
-   /tmp/pdfenv/bin/python3 /root/.hermes/scripts/watch-report-to-pdf.py \
+   /tmp/pdfenv/bin/python3 /root/wiki/watch-report-to-pdf.py \
      "/root/wiki/<slug>/Watch Reports/Watch Report <DD-MM-YYYY>.md" \
      "/root/wiki/<slug>/Watch Reports/Watch Report <DD-MM-YYYY>.pdf"
+   ```
+
+5b. **Create the watch report summary** at `/root/wiki/<slug>/watch-reports-summary.md`:
+   ```markdown
+   # Watch Reports — {Topic Name}
+   | # | Date | Prediction | Probability | Target Date |
+   |---|------|------------|-------------|-------------|
+   | 1 | <DD-MM-YYYY> | <full prediction sentence> | <XX%> | <target date> |
    ```
 
 6. **Create cron jobs** using the prompt templates in `references/`:
