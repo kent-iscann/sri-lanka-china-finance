@@ -205,7 +205,7 @@ The report includes a confidence rating (Low/Medium/High). Be honest:
 - **Prediction = exactly one sentence.** Never more.
 - **Prediction stays the same** across reports unless the underlying prediction genuinely changes. No rephrasing for variety.
 - **First watch report has NO "What's New" section.** Only subsequent reports include it.
-- **All topics live in one repo** (`/root/wiki/`, remote: `kent-iscann/sri-lanka-china-finance`).
+- **All topics live in one repo** (`/root/wiki/`, remote: `kent-iscann/signal-fracture-content`).
 - **Git auth** via credential helper (no gh CLI). PAT stored in remote URL.
 - **PDF script** is shared at `/root/wiki/watch-report-to-pdf.py` (repo root) — do NOT copy per topic. Also mirrored at `/root/.hermes/scripts/watch-report-to-pdf.py`.
 - **PDF venv** at `/tmp/pdfenv/`.
