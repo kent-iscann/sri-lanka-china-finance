@@ -20,4 +20,5 @@
 
 ## Watch Reports
 
+- [[watch-reports-summary]] — Summary of all watch reports with probabilities and timelines
 - [[Watch Report 01-06-2026]] -- Latest watch report: post-crisis normalization, SINOPEC refinery, India-China competition intensifies (probability: 70%)

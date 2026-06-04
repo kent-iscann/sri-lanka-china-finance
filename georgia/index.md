@@ -15,5 +15,7 @@
 - [[middle-corridor]] — The Middle Corridor: China-Europe transport route via Georgia, strategic value
 - [[regime-survival-doctrine]] — Regime Survival Doctrine: GD's transactional, multi-vector foreign policy
 
+
 ## Watch Reports
+- [[watch-reports-summary]] — Summary of all watch reports with probabilities and timelines
 - [[Watch Report 03-06-2026]] — First watch report: Georgia will continue strategic drift until forced to choose (probability: 75%)
