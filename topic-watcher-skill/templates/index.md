@@ -12,4 +12,5 @@
 [auto-populated during bootstrap]
 
 ## Watch Reports
-[auto-populated during bootstrap]
+- [[watch-reports-summary]] — Summary of all watch reports with probabilities and timelines
+[auto-populated during bootstrap — one line per watch report]
