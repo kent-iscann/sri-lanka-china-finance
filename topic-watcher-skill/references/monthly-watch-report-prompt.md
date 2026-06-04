@@ -19,10 +19,17 @@ Step 4: Write/update the watch report at /root/wiki/{slug}/Watch Reports/Watch R
 
 Step 5: Update /root/wiki/{slug}/index.md.
 
+Step 5b: Update /root/wiki/{slug}/watch-reports-summary.md:
+  - If creating a new report: append a new row to the table with the date, full prediction sentence, probability, and target date
+  - If updating existing: update the latest row's probability if changed
+
+Step 5c: Update /root/wiki/watch-reports-summary.md (global summary at repo root):
+  - Update the corresponding topic section with the latest watch report info
+
 Step 6: Append to /root/wiki/{slug}/log.md.
 
 Step 7: Generate PDF using the shared script:
-  /tmp/pdfenv/bin/python3 /root/.hermes/scripts/watch-report-to-pdf.py "<md path>" "<pdf path>"
+  /tmp/pdfenv/bin/python3 /root/wiki/watch-report-to-pdf.py "<md path>" "<pdf path>"
   If weasyprint is missing: /tmp/pdfenv/bin/pip install weasyprint
 
 Step 8: Commit and push:
