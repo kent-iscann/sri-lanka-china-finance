@@ -1,6 +1,6 @@
 # Georgia — Geopolitical Positioning Wiki Index
 
-> Content catalog. Last updated: 2026-06-03 | Total pages: 10 | Total sources: 10
+> Content catalog. Last updated: 2026-06-04 | Total pages: 10 | Total sources: 19
 
 ## Timelines
 - [[georgia-timeline]] — Chronological overview of Georgia's geopolitical positioning from 2008 to present
@@ -19,3 +19,4 @@
 ## Watch Reports
 - [[watch-reports-summary]] — Summary of all watch reports with probabilities and timelines
 - [[Watch Report 03-06-2026]] — First watch report: Georgia will continue strategic drift until forced to choose (probability: 75%)
+- [[Watch Report 04-06-2026]] — Second watch report: Georgia-Azerbaijan energy deals, Ukraine reset attempt, German Ambassador row (probability: 75%)
