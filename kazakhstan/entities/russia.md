@@ -1,0 +1,13 @@
+# Russia
+
+Russia remains Kazakhstan's most consequential and complicated external relationship. The two countries share a 7,644 km border — the longest continuous international border in the world.
+
+## Key dimensions
+- **EAEU membership:** Kazakhstan is a member of the Russia-led Eurasian Economic Union, which governs trade rules and market access.
+- **CSTO membership:** Collective Security Treaty Organization. Russia intervened in Kazakhstan at Tokayev's request during the January 2022 protests.
+- **Sanctions bypass:** Russia uses Kazakhstan (and other Central Asian states) to re-route trade and energy flows to bypass Western sanctions. This creates both economic opportunity and significant secondary sanctions risk for Astana.
+- **Energy transit:** Kazakhstan depends on Russian pipelines for much of its oil export capacity (CPC pipeline to Novorossiysk).
+- **Military presence:** Russia maintains significant military capabilities in the region and views Central Asia as part of its sphere of influence.
+
+## Current dynamic (2025–2026)
+Russia is trying to anchor Kazakhstan more firmly into its sanctions-era architecture. Putin's May 2026 visit to Astana focused on energy, logistics, nuclear cooperation, and new technology. Kazakhstan is trying to turn that embrace into leverage rather than dependence — a delicate balancing act with narrowing margins for error.

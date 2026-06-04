@@ -44,3 +44,19 @@ topics:
     cron_jobs:
       weekly_source_monitor: "103d0a3116e5"
       monthly_watch_report: "2e9a628d3621"
+  - name: "Kazakhstan"
+    slug: "kazakhstan"
+    path: "/root/wiki/kazakhstan"
+    created: "2026-06-04"
+    search_queries:
+      - "Kazakhstan economic diversification natural resources 2025 2026"
+      - "Kazakhstan AI tech startup ecosystem 2025 2026"
+      - "Kazakhstan cryptocurrency mining regulation 2025 2026"
+      - "Kazakhstan Russia sanctions bypass 2025 2026"
+      - "Kazakhstan China trade Belt and Road 2025 2026"
+      - "Kazakhstan global competitiveness ranking 2025 2026"
+      - "Kazakhstan Caspian energy geopolitics 2025 2026"
+      - "Tokayev multi-vector foreign policy 2025 2026"
+    cron_jobs:
+      weekly_source_monitor: ""
+      monthly_watch_report: ""
