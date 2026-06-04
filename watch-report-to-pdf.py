@@ -79,6 +79,10 @@ def parse_watch_report(md_path, prev_md_path=None):
     target_m = re.search(r'Target\s+Date\s*:\s*(.+?)(?:\n|$)', pred_clean)
     target_date = target_m.group(1).strip() if target_m else ''
 
+    # Extract confidence level from end of document
+    conf_m = re.search(r'\*Confidence level:\s*([LowMediumHigh]+)\*', content)
+    confidence = conf_m.group(1).strip() if conf_m else ''
+
     # Prediction statement = first sentence only (up to first period within the first line/paragraph)
     # Remove meta lines first
     cleaned_lines = []
@@ -139,6 +143,7 @@ def parse_watch_report(md_path, prev_md_path=None):
         'prediction_sentence': first_sentence,
         'whatsnew_html': whatsnew_html,
         'justification': justification,
+        'confidence': confidence,
     }
 
 
@@ -302,6 +307,13 @@ body {{
     margin-top: 3mm;
 }}
 
+.prob-confidence {{
+    font-size: 11pt;
+    font-weight: 400;
+    opacity: 0.85;
+    margin-top: 2mm;
+}}
+
 /* ── What's New ── */
 .whats-new {{
     background: #f5f5f5;
@@ -413,6 +425,7 @@ body {{
         <div class="prob-label">Probability</div>
         {delta_html}
         <div class="prob-target">Target: {target}</div>
+        <div class="prob-confidence">Confidence: {s['confidence']}</div>
     </div>
 </div>
 
