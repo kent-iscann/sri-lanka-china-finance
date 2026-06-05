@@ -173,6 +173,7 @@ def generate_pdf(md_path, output_path, prev_md_path=None):
 <head>
 <meta charset="utf-8">
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
 @page {{
     size: A4;
     margin: 0;
@@ -191,16 +192,16 @@ def generate_pdf(md_path, output_path, prev_md_path=None):
 }}
 
 body {{
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #1a1a1a;
-    background: #ffffff;
+    font-family: 'JetBrains Mono', Arial, sans-serif;
+    color: #A6B3C2;
+    background: #05080F;
     width: 210mm;
 }}
 
 /* ── Header ── */
 .header {{
-    background: #0a0a0a;
-    color: #ffffff;
+    background: #001C3C;
+    color: #E8E6DF;
     padding: 0 20mm;
     display: flex;
     justify-content: space-between;
@@ -217,7 +218,7 @@ body {{
 
 .header-title {{
     font-size: 12pt;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 2px;
 }}
 
@@ -228,7 +229,7 @@ body {{
 
 .header-brand {{
     font-size: 11pt;
-    font-weight: 700;
+    font-weight: 300;
     letter-spacing: 0.5px;
 }}
 
@@ -249,8 +250,8 @@ body {{
 
 /* ── Prediction banner ── */
 .prediction {{
-    background: #b71c1c;
-    color: #ffffff;
+    background: #C8463A;
+    color: #E8E6DF;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -319,24 +320,25 @@ body {{
 
 /* ── What's New ── */
 .whats-new {{
-    background: #f5f5f5;
-    border-left: 4px solid #b71c1c;
+    background: #0A1426;
+    border-left: 4px solid #E8A33D;
     padding: 6mm 20mm;
 }}
 
 .whats-new h3 {{
-    font-size: 10pt;
+    font-size: 11pt;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin-bottom: 3mm;
-    color: #0a0a0a;
+    margin-bottom: 5mm;
+    color: #E8A33D;
+    font-family: 'Source Serif 4', sans-serif;
 }}
 
 .whats-new p {{
     font-size: 9pt;
     line-height: 1.7;
-    color: #2a2a2a;
+    color: #A6B3C2;
     margin-bottom: 2mm;
 }}
 
@@ -353,7 +355,7 @@ body {{
 .whats-new li {{
     font-size: 9pt;
     line-height: 1.7;
-    color: #2a2a2a;
+    color: #A6B3C2;
     margin-bottom: 3mm;
     padding-left: 2mm;
 }}
@@ -373,7 +375,8 @@ body {{
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin-bottom: 5mm;
-    color: #0a0a0a;
+    color: #E8A33D;
+    font-family: 'Source Serif 4', sans-serif;
 }}
 
 .analysis h3 {{
@@ -383,9 +386,10 @@ body {{
     text-transform: uppercase;
     margin-top: 5mm;
     margin-bottom: 2mm;
-    color: #0a0a0a;
-    border-left: 3px solid #b71c1c;
+    color: #5FA8C4;
+    border-left: 3px solid #5FA8C4;
     padding-left: 5px;
+    font-family: 'Source Serif 4', sans-serif;
 }}
 
 .analysis h3:first-of-type {{
@@ -395,7 +399,7 @@ body {{
 .analysis p {{
     font-size: 9pt;
     line-height: 1.7;
-    color: #2a2a2a;
+    color: #A6B3C2;
     margin-bottom: 2.5mm;
     text-align: justify;
 }}
@@ -412,8 +416,8 @@ body {{
     <div class="header-left">
         <span class="header-title">Watch Report</span>
         <span class="header-sep">|</span>
-        <span class="header-brand">IScann Group</span>
-        <span class="header-sub">&nbsp;·&nbsp; Signal &amp; Fracture</span>
+        <span class="header-brand">Signal & Fracture by IScann Group</span>
+        # <span class="header-sub">&nbsp;·&nbsp; Signal &amp; Fracture</span>
     </div>
     <div class="header-date">{s['report_date']}</div>
 </div>
@@ -427,8 +431,8 @@ body {{
         <div class="prob-number">{prob}<span class="prob-pct">%</span></div>
         <div class="prob-label">Probability</div>
         {delta_html}
-        <div class="prob-target">Target: {target}</div>
-        <div class="prob-confidence">Confidence: {s['confidence']}</div>
+        <div class="prob-target"><strong>Target:</strong> {target}</div>
+        <div class="prob-confidence"><strong>Confidence:</strong> {s['confidence']}</div>
     </div>
 </div>
 
