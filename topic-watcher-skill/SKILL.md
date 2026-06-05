@@ -96,10 +96,18 @@ topics:
      "/root/wiki/<slug>/Watch Reports/Watch Report <DD-MM-YYYY>.pdf"
    ```
 
-5b. **Create the watch report summary** at `/root/wiki/<slug>/watch-reports-summary.md` (use `templates/watch-reports-summary.md`):
+5b. **Upload PDF to Cloudflare R2:**
+   ```bash
+   python3 /root/wiki/upload-to-r2.py \
+     "/root/wiki/<slug>/Watch Reports/Watch Report <DD-MM-YYYY>.pdf" \
+     "<slug>" "<Topic Name>" "<prediction sentence>" <probability> "<target_date>"
+   ```
+   This uploads the PDF to the `signal-fracture-content` R2 bucket at `watch-reports/<slug>/<date>.pdf` and updates the `watch-reports/manifest.json` index.
+
+5c. **Create the watch report summary** at `/root/wiki/<slug>/watch-reports-summary.md` (use `templates/watch-reports-summary.md`):
    - Include the full prediction sentence, probability, and target date
 
-5c. **Create the global summary** at `/root/wiki/watch-reports-summary.md`:
+5d. **Create the global summary** at `/root/wiki/watch-reports-summary.md`:
    - Add a section for this topic with a compact table row linking to the topic's detailed summary
 
 6. **Create cron jobs** using the prompt templates in `references/`:
@@ -209,7 +217,10 @@ The report includes a confidence rating (Low/Medium/High). Be honest:
 - **Git auth** via credential helper (no gh CLI). PAT stored in remote URL.
 - **PDF script** is shared at `/root/wiki/watch-report-to-pdf.py` (repo root) — do NOT copy per topic. Also mirrored at `/root/.hermes/scripts/watch-report-to-pdf.py`.
 - **PDF venv** at `/tmp/pdfenv/`.
+- **R2 upload script** at `/root/wiki/upload-to-r2.py` — uploads PDFs to Cloudflare R2 bucket `signal-fracture-content` at path `watch-reports/<slug>/<date>.pdf` and updates `watch-reports/manifest.json`.
 - **Report back tersely.** User prefers direct, concise output — no verbose summaries or "let me know" closings.
+- **PDF prediction box** renders: probability, delta indicator, target date, and confidence level. Confidence is extracted from `*Confidence level: [Low/Medium/High]*` at the end of the report markdown.
+- **R2 upload** — after generating the PDF, upload to Cloudflare R2 using `/root/wiki/upload-to-r2.py`. This updates the `watch-reports/manifest.json` index automatically.
 
 ## Pitfalls
 
@@ -217,3 +228,10 @@ The report includes a confidence rating (Low/Medium/High). Be honest:
 - **PDF script uses shared path** — always reference `/root/wiki/watch-report-to-pdf.py` (repo root), never copy into topic folders. Also mirrored at `/root/.hermes/scripts/watch-report-to-pdf.py`.
 - **Verification step** — after generating the first PDF for a new topic, always visually verify (or have the user check) that the prediction section renders correctly. If the prediction box is blank, check that `---` separators are present in the markdown.
 - **Keep summary files in sync** — when creating or updating a watch report, always update both the per-topic `watch-reports-summary.md` and the global `watch-reports-summary.md` at the repo root.
+- **Bold/italic in PDF** — the PDF script's `convert_markdown()` function converts `**bold**` and `*italic*` to HTML `<strong>`/`<em>` tags. Do NOT use the old `unbold()` approach — it strips formatting. Bold and italic markdown in What's New and Justification sections will render correctly in the PDF.
+- **Sync skill files to repo after edits** — when SKILL.md or any support file in `~/.hermes/skills/devops/topic-watcher/` is modified, copy the updated files to `/root/wiki/topic-watcher-skill/` and commit/push. This ensures the repo has the latest version for posterity. The repo copy mirrors the skill directory structure exactly.
+
+## Search Quality
+
+- **Disambiguate geographic names.** When researching countries or regions whose names collide with US states, cities, or other common terms (e.g., Georgia, Armenia, Azerbaijan, Congo, Niger, Jordan, Syria, etc.), always include a disambiguating term in search queries: the capital city name ("Tbilisi"), "country," or the specific context (e.g., "Georgia Caucasus"). Without this, Tavily results will be dominated by irrelevant US domestic content.
+- **Verify source relevance before extracting.** After running a search, scan the results for relevance before calling `tavily_extract`. If the top results are off-topic, refine the query before proceeding. Don't waste extract calls on irrelevant pages.
