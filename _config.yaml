@@ -28,8 +28,8 @@ topics:
     cron_jobs:
       weekly_source_monitor: "e4c42eb7e604"
       monthly_watch_report: "1f42aa60b65a"
-  - name: "Georgian Politics"
-    slug: "georgian-politics"
+  - name: "Georgian Geopolitical Position"
+    slug: "georgian-geopolitical-position"
     path: "/root/wiki/georgia"
     created: "2026-06-03"
     search_queries:
