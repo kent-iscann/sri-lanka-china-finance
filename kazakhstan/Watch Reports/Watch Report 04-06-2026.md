@@ -2,7 +2,7 @@
 
 ## Prediction
 
-Kazakhstan's economic diversification will continue to advance in the tech sector but fail to materially reduce hydrocarbon dependence over the next 18 months, leaving the country increasingly caught between Russian sanctions-pressure and Western conditionality without a viable third path.
+Kazakhstan's economic diversification will continue to advance in the tech sector but fail to materially reduce hydrocarbon dependence over the next 18 months.
 
 **Probability:** 70%
 **Target Date:** December 2027
