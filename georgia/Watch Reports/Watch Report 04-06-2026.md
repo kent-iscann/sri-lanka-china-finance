@@ -9,19 +9,6 @@ Georgia will continue its strategic drift over the next 18 months, maintaining t
 
 ---
 
-## What's New
-
-- **PM Kobakhidze submitted his annual report** (June 3, expected parliamentary presentation June 26). Emphasizes US reset, EU integration, Ukraine support, and economic growth. Claims Georgia co-sponsored ~850 resolutions opposing Russian aggression and made 380+ national statements supporting Ukraine — an attempt to demonstrate continued Western alignment despite the domestic democratic rollback.
-- **Georgia-Azerbaijan 20-year energy and rail agreements** signed (May 18, reported June 2). Includes 20-year gas purchase extension, 20-year electricity supply/transit framework, and restoration of daily Tbilisi-Baku passenger rail. Strengthens Georgia's transit hub role but raises energy security concerns: Russian gas supplies to Georgia rose significantly in 2025 while Azerbaijani share declined. Critics (including former National Bank president Roman Gotsiridze) warn the deals could lock Georgia into greater Russian gas dependence.
-- **Ukraine reset attempt.** Zelenskyy spoke with Kobakhidze at the Yerevan EPC summit (early May); Ukrainian FM Sybiha held talks with Georgian FM Bochorishvili (May 15), stating Kyiv is ready for a "new chapter." However, Kobakhidze and senior GD officials remain under Ukrainian sanctions — a contradiction that Georgian civil society (via professor Amiran Khevtsuriani) has flagged as confusing and potentially abandonment of protest supporters.
-- **US State Department delegation statement** subtly pushed back on GD's narrative, emphasizing that "functioning democracy requires political opposition that interacts with state institutions" — a direct counter to GD's claim that the opposition is foreign-controlled.
-- **German Ambassador controversy.** GD officials (Kobakhidze, Makhashvili, Matikashvili) sharply criticized German Ambassador Peter Fischer's remarks as "divisive" and "xenophobic," signaling continued deterioration in Georgia-Germany relations.
-- **EBRD upgraded Georgia's 2026 growth forecast** to 6% (up 0.5pp), confirming continued economic momentum despite political isolation.
-- **Seven defendants admitted guilt** in the October 4 coup attempt case, with plea agreements expected.
-- **Independence Day protests** (May 26) drew thousands to Rustaveli Avenue. Neither government nor opposition showed willingness to compromise.
-
----
-
 ## Justification
 
 ### Political
