@@ -60,3 +60,16 @@ topics:
     cron_jobs:
       weekly_source_monitor: "588924b68bde"
       monthly_watch_report: "4f247c08fda0"
+  - name: "Islamic Extremism in the Philippines"
+    slug: "philippines-islamic-extremism"
+    path: "/root/wiki/philippines-islamic-extremism"
+    created: "2026-06-06"
+    search_queries:
+      - "Philippines Islamic extremism Abu Sayyaf MILF 2025 2026"
+      - "Bangsamoro Autonomous Region election September 2026"
+      - "Philippines South China Sea China ASEAN chair 2026"
+      - "ISIS Philippines Mindanao terrorism 2025 2026"
+      - "Marcos Duterte rivalry Mindanao security implications"
+    cron_jobs:
+      weekly_source_monitor: "5aaf1dd82283"
+      monthly_watch_report: "4aa9baba9300"

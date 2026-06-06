@@ -25,3 +25,9 @@
 | # | Date | Prediction | Probability | Target |
 |---|------|------------|-------------|--------|
 | 1 | 04-06-2026 | Tech diversification advances but hydrocarbons remain dominant | 70% | Dec 2027 |
+
+## [Islamic Extremism in the Philippines](philippines-islamic-extremism/watch-reports-summary.md)
+
+| # | Date | Prediction | Probability | Target |
+|---|------|------------|-------------|--------|
+| 1 | 06-06-2026 | BARMM election survives but BTA extension required | 70% | Mar 2027 |
