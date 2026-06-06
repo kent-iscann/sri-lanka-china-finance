@@ -17,8 +17,7 @@
 
 | # | Date | Prediction | Probability | Target |
 |---|------|------------|-------------|--------|
-| 1 | 03-06-2026 | Strategic drift continues until forced to choose | 75% | Dec 2027 |
-| 2 | 04-06-2026 | Strategic drift continues until forced to choose | 75% | Dec 2027 |
+| 1 | 04-06-2026 | Strategic drift continues until forced to choose | 75% | Dec 2027 |
 
 ## [Kazakhstan](kazakhstan/watch-reports-summary.md)
 
