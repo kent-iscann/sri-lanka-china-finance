@@ -388,8 +388,8 @@ body {{
     text-transform: uppercase;
     margin-top: 5mm;
     margin-bottom: 2mm;
-    color: #E8A33D;
-    border-left: 2px solid #5FA8C4;
+    color: #5FA8C4;
+    border-left: 2px solid #E8A33D;
     padding-left: 5px;
     font-family: 'JetBrains Mono', sans-serif;
 }}
