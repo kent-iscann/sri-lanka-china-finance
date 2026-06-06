@@ -173,7 +173,7 @@ def generate_pdf(md_path, output_path, prev_md_path=None):
 <head>
 <meta charset="utf-8">
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap");
 @page {{
     size: A4;
     margin: 0;
