@@ -179,6 +179,7 @@ def generate_pdf(md_path, output_path, prev_md_path=None):
     margin: 0;
     margin-bottom: 25.4mm;
     margin-top: 25.4mm;
+    background: #05080F;
 }}
 
 @page :first {{
@@ -217,9 +218,10 @@ body {{
 }}
 
 .header-title {{
-    font-size: 12pt;
-    font-weight: 500;
+    font-size: 11pt;
+    font-weight: 700;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }}
 
 .header-sep {{
@@ -228,7 +230,7 @@ body {{
 }}
 
 .header-brand {{
-    font-size: 11pt;
+    font-size: 10pt;
     font-weight: 300;
     letter-spacing: 0.5px;
 }}
@@ -282,7 +284,7 @@ body {{
 }}
 
 .prob-pct {{
-    font-size: 24pt;
+    font-size: 22pt;
     font-weight: 300;
     vertical-align: super;
 }}
@@ -326,12 +328,12 @@ body {{
 }}
 
 .whats-new h3 {{
-    font-size: 11pt;
+    font-size: 12pt;
     font-weight: 700;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin-bottom: 5mm;
-    color: #E8A33D;
+    color: #E8E6DF;
     font-family: 'Source Serif 4', sans-serif;
 }}
 
@@ -370,12 +372,12 @@ body {{
 }}
 
 .analysis h2 {{
-    font-size: 11pt;
+    font-size: 12pt;
     font-weight: 700;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin-bottom: 5mm;
-    color: #E8A33D;
+    color: #E8E6DF;
     font-family: 'Source Serif 4', sans-serif;
 }}
 
@@ -386,10 +388,10 @@ body {{
     text-transform: uppercase;
     margin-top: 5mm;
     margin-bottom: 2mm;
-    color: #5FA8C4;
-    border-left: 3px solid #5FA8C4;
+    color: #E8A33D;
+    border-left: 2px solid #5FA8C4;
     padding-left: 5px;
-    font-family: 'Source Serif 4', sans-serif;
+    font-family: 'JetBrains Mono', sans-serif;
 }}
 
 .analysis h3:first-of-type {{
@@ -417,7 +419,6 @@ body {{
         <span class="header-title">Watch Report</span>
         <span class="header-sep">|</span>
         <span class="header-brand">Signal & Fracture by IScann Group</span>
-        # <span class="header-sub">&nbsp;·&nbsp; Signal &amp; Fracture</span>
     </div>
     <div class="header-date">{s['report_date']}</div>
 </div>
