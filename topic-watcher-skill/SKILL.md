@@ -169,7 +169,7 @@ The prediction is the single most important sentence in the report. It's what ge
 - **Falsifiable.** A reader should be able to point to a future date and say "that happened" or "that didn't." "Tensions will remain elevated" is not falsifiable. "Country X will impose export controls on rare earths to Country Y before [date]" is.
 - **Time-bound.** Every prediction has a target date. No target date = no track record.
 - **Specific enough to matter.** The prediction should be precise enough that getting it right demonstrates real analytical skill, not luck. "Something will happen in Sri Lanka" is worthless. "China will restructure Sri Lanka's bilateral debt on terms that defer principal payments by 18+ months, announced before Q3 2026" is a prediction.
-- **One sentence. Always.** No compound predictions, no "either X or Y." If you can't state it in one sentence, you haven't sharpened the thinking enough.
+- **One sentence. Always.** No compound predictions, no "either X or Y." If you can't state it in one sentence, you haven't sharpened the thinking enough. Avoid clarifying clauses, be concise. 
 
 ### Analytical Reasoning: Evidence → Inference → Prediction
 
