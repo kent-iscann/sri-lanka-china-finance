@@ -1,6 +1,6 @@
 topics:
-  - name: "Sri Lanka-China"
-    slug: "sri-lanka-china"
+  - name: "Sri Lankan Financial Relationship with China"
+    slug: "sri-lankan-financial-relationship-china"
     path: "/root/wiki/sri-lanka-china"
     created: "2026-05-20"
     search_queries:
@@ -12,8 +12,8 @@ topics:
     cron_jobs:
       weekly_source_monitor: "59bd5148c4da"
       monthly_watch_report: "90f1ad1706cb"
-  - name: "China-Southern Africa"
-    slug: "china-southern-africa"
+  - name: "Chinese Infrastructure in Southern Africa"
+    slug: "chinese-infrastructure-southern-africa"
     path: "/root/wiki/china-southern-africa"
     created: "2026-06-03"
     search_queries:
@@ -28,8 +28,8 @@ topics:
     cron_jobs:
       weekly_source_monitor: "e4c42eb7e604"
       monthly_watch_report: "1f42aa60b65a"
-  - name: "Georgia"
-    slug: "georgia"
+  - name: "Georgian Politics"
+    slug: "georgian-politics"
     path: "/root/wiki/georgia"
     created: "2026-06-03"
     search_queries:
@@ -44,8 +44,8 @@ topics:
     cron_jobs:
       weekly_source_monitor: "103d0a3116e5"
       monthly_watch_report: "2e9a628d3621"
-  - name: "Kazakhstan"
-    slug: "kazakhstan"
+  - name: "Kazakhstan Economy"
+    slug: "kazakhstan-economy"
     path: "/root/wiki/kazakhstan"
     created: "2026-06-04"
     search_queries:
