@@ -2,7 +2,7 @@
 
 ## Prediction
 
-Georgia will continue its strategic drift over the next 18 months, maintaining transactional relationships with the US, Russia, and the EU without firmly anchoring to any single camp — until a domestic political crisis or external shock forces a definitive choice.
+Georgia will continue its strategic drift over the next 18 months, maintaining transactional relationships with the US, Russia, and the EU without firmly anchoring to any single camp.
 
 **Probability:** 75%
 **Target Date:** December 2027
