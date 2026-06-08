@@ -13,7 +13,7 @@
 ---
 
 ## Prediction
-Kazakhstan's economic diversification will continue to advance over the next 18 months but not enough to provide the country with a viable third path.
+Kazakhstan's economic diversification will not advance enough over the next 18 months to provide the country with a viable third path.
 
 **Probability:** 70%
 **Target:** December 2027
