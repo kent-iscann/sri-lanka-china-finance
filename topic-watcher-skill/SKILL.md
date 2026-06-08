@@ -198,7 +198,7 @@ These are the headline takeaways — they must be crisp and direct.
 
 - **Signal:** One sentence. The key observable development or trend. No data points, no clarifiers, no subordinate clauses. Example: "Kazakhstan's tech ecosystem is gaining genuine momentum." NOT "Kazakhstan's tech ecosystem is gaining genuine momentum — top 10 'Rising Stars' in Dealroom.co's 2026 index, a dedicated Ministry of AI, and major international forums."
 - **Fracture:** One sentence. The stress point or risk that could disrupt the status quo. Concise, no examples or caveats. Example: "Hydrocarbon reliance, Russian sanctions-era pressure, and an aversion to Western conditionality are forcing Kazakhstan into an untenable position."
-- **Prediction:** One sentence. Direct and concise. Avoid "leaving the country increasingly caught between X and Y without a viable third path" — just state what will happen. Example: "Kazakhstan's economic diversification will continue to advance over the next 18 months but not enough to provide the country with a viable third path."
+- **Prediction:** One sentence. Direct and concise. Avoid "leaving the country increasingly caught between X and Y without a viable third path" — just state what will happen. Example: "Kazakhstan's economic diversification will not advance enough over the next 18 months to provide the country with a viable third path."
 - **Rule:** If a reader only reads Signal, Fracture, and Prediction, they should understand the entire thesis. The Analysis section provides the evidence and reasoning — the headline sections should not duplicate it. 
 
 ### Analytical Reasoning: Evidence → Inference → Prediction
