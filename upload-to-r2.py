@@ -24,7 +24,7 @@ R2_SECRET_ACCESS_KEY = "bc810ece1600642490e6312097c85487b11bcd6fffa6f09841a259a1
 R2_ENDPOINT = f"https://{R2_ACCOUNT_ID}.r2.cloudflarestorage.com"
 R2_BUCKET = "signal-fracture-content"
 R2_PREFIX = "watch-reports"
-R2_PUBLIC_BASE = f"https://pub-70e08d62c8314675b40c42f0fe4be6fb.r2.dev"
+R2_PUBLIC_BASE = f"https://pub-{R2_ACCOUNT_ID}.r2.dev/{R2_BUCKET}"
 
 s3 = boto3.client(
     "s3",
