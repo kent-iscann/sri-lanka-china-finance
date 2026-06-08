@@ -1,9 +1,22 @@
 # Watch Report <DD-MM-YYYY>
 
+## Metadata
+**Topic:** [Topic name]
+**Geography:** [Country and region, comma separated]
+
+---
+
+## Signal & Fracture
+**Signal:** [Key obsversable development - one sentence]
+**Fracture:** [Stress point(s) that could disrupt the status quo - one sentence]
+
+---
+
 ## Prediction
-[Exactly one sentence — the core prediction]
+[Exactly one sentence — the core prediction - what is likely to happen and by when]
 **Probability:** [XX%]
-**Target Date:** [date]
+**Target:** [date]
+**Confidence:** [Low/Medium/High]
 
 ---
 
@@ -14,7 +27,7 @@ Only include this section for 2nd+ reports. Bullet points:
 
 ---
 
-## Justification
+## Analysis
 ### Political
 [analysis]
 
@@ -29,10 +42,30 @@ Only include this section for 2nd+ reports. Bullet points:
 
 ---
 
+## Watch Indicators
+[Key things to monitor that may influence the prediction]
+
+---
+
+## Probability Triggers
+[What are the things what would need to happen in order for the probability to go up or down - formatted as a table with 2 columns: Thing and Upward/Downward]
+
+---
+
 ## Key Sources
+[Include source links, not just titles]
 1.
 2.
 
+---
+
+## Disclaimer
+This free Watch Report is provided by IScann Group for informational and strategic awareness purposes only. It is not legal, investment, security, or government advice. Assessments are probabilistic and may change as new information becomes available.
+
+---
+
+## Notes
 *Report generated: <date>*
-*Confidence level: [Low/Medium/High]*
-*Next review: <date 3 months out>*
+*Sources: Based on open-source reporting available as of <date>*
+*Methodology: Probability reflects IScann Group’s analytic judgment, not a statistical model, unless otherwise stated.*
+*Next review: <date 1 month out>*
