@@ -1,23 +1,35 @@
 # Watch Report 01-06-2026
 
-## Prediction
+## Metadata
+**Topic:** Sri Lanka-China Financial Relationship
+**Geography:** Sri Lanka, Indian Ocean
 
+---
+
+## Signal & Fracture
+**Signal:** The SINOPEC Hambantota refinery deal confirms that major Chinese commercial commitments to Sri Lanka are resuming after the post-crisis freeze.
+**Fracture:** India's acquisition of a controlling stake in Colombo Dockyard and the trilateral Trincomalee framework are systematically counterbalancing Chinese influence, turning Sri Lanka into an active contest zone.
+
+---
+
+## Prediction
 Sri Lanka will sign a new bilateral infrastructure financing agreement with China within the next 18 months.
 
-**Target Date:** November 2027
-
-**Probability:** 70% (up from 65%)
+**Probability:** 70%
+**Target:** November 2027
+**Confidence:** Medium
 
 ---
 
 ## What's New
-
 - The SINOPEC Hambantota refinery deal — confirmed for finalization in Q1 2026 — serves as a leading indicator that major Chinese commercial commitments are resuming despite India's parallel push into Sri Lankan maritime infrastructure.
-- Probability increased from 65% to 70%
+- India's Mazagon Dock acquired 51% of Colombo Dockyard (April 2026), establishing a strategic Indian foothold adjacent to Chinese-controlled operations.
+- Sri Lanka's Mattala Airport EoI (May 2026) creates an immediate flashpoint near China-controlled Hambantota port.
+- Probability increased from 65% to 70%.
 
 ---
 
-## Justification
+## Analysis
 
 ### Political
 
@@ -59,19 +71,47 @@ However, the global technology decoupling trend continues to constrain Chinese d
 
 ---
 
-## Key Sources
-
-1. "How Sri Lanka Balanced India and China Ties to Maximise Developmental Gains" -- South Asia Monitor, April 2026 (Source #26) — *Updated debt figures, Wang Yi visit, SINOPEC refinery timeline, Adani exit, Mazagon Dock acquisition*
-2. "Sri Lanka airport lease near China-controlled Hambantota port opens door for India" -- Rediff.com, May 17, 2026 (Source #27) — *Mattala Airport EoI details, India-China strategic competition*
-3. "Is Geopolitics ending the IMF's role as Lender of Last Resort?" -- STAIR Journal, Oxford, May 6, 2026 (Source #28) — *China-IMF tensions, voting share reform, preferred creditor challenge*
-4. "Beyond Debt: China-Sri Lanka Economic Relations in a New Era" -- The Diplomat, January 2025 (Source #25)
-5. "Evolution of Chinese Lending to Sri Lanka Since the mid-2000s" -- CARI, Johns Hopkins SAIS, November 2022 (Source #1)
-6. "China and Sri Lanka's Debt Crisis: Belt and Road Initiative Blowback" -- Jamestown Foundation, May 2022 (Source #11)
-7. "Debunking the Myth of 'Debt-trap Diplomacy'" -- Chatham House, August 2020 (Source #14)
-8. "China Belt and Road Initiative (BRI) Investment Report 2025" -- Green Finance & Development Center (Source #13)
+## Watch Indicators
+- SINOPEC Hambantota refinery finalization timeline and terms
+- Mattala Airport tender outcome and bidder identities
+- India-Sri Lanka bilateral infrastructure announcements
+- Sri Lanka-China high-level diplomatic engagements
+- IMF program review outcomes and borrowing space
+- Hambantota Port commercial activity and throughput data
 
 ---
 
-*Report generated: 1 June 2026*
-*Confidence level: Medium*
-*Next review: September 2026*
+## Probability Triggers
+| Thing | Direction |
+|-------|-----------|
+| Sri Lanka and China sign a new infrastructure MoU | Up |
+| India announces a major new port or logistics investment in Sri Lanka | Down |
+| Mattala Airport tender awarded to an Indian or Western firm | Down |
+| SINOPEC refinery deal is finalized and construction begins | Up |
+| IMF tightens borrowing limits on bilateral creditors | Down |
+| China offers debt relief or concessional terms on new infrastructure | Up |
+
+---
+
+## Key Sources
+1. [South Asia Monitor: How Sri Lanka Balanced India and China](https://southasiamonitor.org) — Updated debt figures, Wang Yi visit, SINOPEC refinery timeline
+2. [Rediff.com: Sri Lanka Airport Lease Near Hambantota](https://www.rediff.com) — Mattala Airport EoI, India-China strategic competition
+3. [STAIR Journal, Oxford: Is Geopolitics Ending the IMF's Role?](https://www.stairjournal.com) — China-IMF tensions, preferred creditor challenge
+4. [The Diplomat: Beyond Debt — China-Sri Lanka Economic Relations](https://thediplomat.com) — Post-crisis relationship analysis
+5. [CARI/Johns Hopkins SAIS: Evolution of Chinese Lending to Sri Lanka](https://www.sais-cari.org) — Comprehensive lending data
+6. [Jamestown Foundation: China and Sri Lanka's Debt Crisis](https://jamestown.org) — BRI blowback assessment
+7. [Chatham House: Debunking Debt-Trap Diplomacy](https://www.chathamhouse.org) — Rethinking the narrative
+8. [Green Finance & Development Center: BRI Investment Report 2025](https://greenfdc.org) — Updated investment data
+
+---
+
+## Disclaimer
+This free Watch Report is provided by IScann Group for informational and strategic awareness purposes only. It is not legal, investment, security, or government advice. Assessments are probabilistic and may change as new information becomes available.
+
+---
+
+## Notes
+*Report generated: 2026-06-01*
+*Sources: Based on open-source reporting available as of 2026-06-01*
+*Methodology: Probability reflects IScann Group's analytic judgment, not a statistical model, unless otherwise stated.*
+*Next review: 2026-09-01*

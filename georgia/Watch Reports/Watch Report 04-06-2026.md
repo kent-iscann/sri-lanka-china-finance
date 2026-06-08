@@ -1,19 +1,31 @@
 # Watch Report 04-06-2026
 
-## Prediction
-
-Georgia will continue its strategic drift over the next 18 months, maintaining transactional relationships with the US, Russia, and the EU without firmly anchoring to any single camp.
-
-**Probability:** 75%
-**Target Date:** December 2027
+## Metadata
+**Topic:** Georgia Geopolitical Positioning
+**Geography:** Georgia, South Caucasus
 
 ---
 
-## Justification
+## Signal & Fracture
+**Signal:** Georgia is pursuing transactional relationships with the US, Russia, and the EU simultaneously while committing to none.
+**Fracture:** Georgian Dream's regime survival doctrine — presenting as pro-Western while avoiding substantive democratic reforms — is straining relations with the EU even as the US engages pragmatically.
+
+---
+
+## Prediction
+Georgia will continue its strategic drift over the next 18 months, maintaining transactional relationships with the US, Russia, and the EU without firmly anchoring to any single camp.
+
+**Probability:** 75%
+**Target:** December 2027
+**Confidence:** Medium
+
+---
+
+## Analysis
 
 ### Political
 
-The dominant political dynamic remains Georgian Dream's regime survival doctrine — and the new developments since June 3 reinforce rather than disrupt it. Kobakhidze's annual report is a carefully constructed document designed to present GD as simultaneously pro-Western (850 Ukraine resolutions, 380 statements), pro-US (reset agenda), and pro-EU (integration commitments) — while doing none of the substantive democratic reforms that would make any of these claims credible to Western institutions.
+The dominant political dynamic remains Georgian Dream's regime survival doctrine — and the developments since the last report reinforce rather than disrupt it. Kobakhidze's annual report is a carefully constructed document designed to present GD as simultaneously pro-Western (850 Ukraine resolutions, 380 statements), pro-US (reset agenda), and pro-EU (integration commitments) — while doing none of the substantive democratic reforms that would make any of these claims credible to Western institutions.
 
 The US reset is the most significant active file. The Trump administration's willingness to engage is real, driven by Middle Corridor interest and transactional diplomacy. But the US Embassy's statement — emphasizing democratic functioning and opposition engagement — reveals that Washington is not simply rubber-stamping GD's approach. The reset is conditional and cautious, not a blank check.
 
@@ -27,7 +39,7 @@ The domestic political trajectory is frozen. The October 4 coup case plea deals 
 
 Georgia's economy continues to perform well (EBRD 6% forecast), driven by transit, logistics, ICT, and tourism. The Georgia-Azerbaijan energy agreements are economically rational in the short term — securing gas supply and rail connectivity — but strategically concerning. The shift toward Russian gas dependence is a quiet but significant vulnerability. If Western sanctions on Russia tighten further, Georgia could face energy supply complications or be forced into costly diversification.
 
-The Middle Corridor remains Georgia's strongest economic card. The Baku-Tbilisi-Kars railway restoration and the new section being made operational reinforce Georgia's irreplaceable geographic position. However, the Anaklia Deep Sea Port (Chinese-financed) remains a flashpoint — it would increase capacity but deepen Chinese economic influence in a sector the US views through a strategic competition lens.
+The Middle Corridor remains Georgia's strongest economic card. The Baku-Tbilisi-Kars railway restoration and the new section being made operational reinforce Georgia's irreplaceable geographic position. Chinese-financed infrastructure projects at Georgian deep-sea ports remain a flashpoint — they would increase capacity but deepen Chinese economic influence in a sector the US views through a strategic competition lens.
 
 The Swissôtel Kobuleti project and similar investments signal that FDI continues despite political headwinds. But this investment is concentrated in tourism and real estate — sectors that are vulnerable to geopolitical shocks and don't build the industrial base Georgia needs for EU accession.
 
@@ -39,22 +51,50 @@ The US military relationship remains minimal. The Trump reset has not included a
 
 ### Technological
 
-Georgia's ICT sector continues to grow, but the technological dimension of Georgia's geopolitical positioning is increasingly a US-China competition zone. Chinese tech investment (potential 5G, surveillance systems, Anaklia port digital infrastructure) is a concern for Washington. The Trump administration is likely to push back on Chinese tech penetration as part of any deeper engagement. Georgia's tech sector thus faces a forced-choice dynamic that mirrors the broader geopolitical drift.
+Georgia's ICT sector continues to grow, but the technological dimension of Georgia's geopolitical positioning is increasingly a US-China competition zone. Chinese tech investment (potential 5G, surveillance systems, port digital infrastructure) is a concern for Washington. The Trump administration is likely to push back on Chinese tech penetration as part of any deeper engagement. Georgia's tech sector thus faces a forced-choice dynamic that mirrors the broader geopolitical drift.
+
+---
+
+## Watch Indicators
+- US-Georgia diplomatic engagement depth (visits, statements, agreements)
+- EU accession process milestones or setbacks
+- Russian gas supply negotiations and pricing
+- Georgian Dream rhetoric and domestic legal actions toward opposition
+- Chinese infrastructure investment in Georgian transport/logistics
+- October 2028 election timeline developments
+
+---
+
+## Probability Triggers
+| Thing | Direction |
+|-------|-----------|
+| US announces concrete security or infrastructure commitment to Georgia | Down |
+| EU grants Georgia candidate status or advances accession talks | Down |
+| Russia formalizes a security arrangement with Georgia | Up |
+| GD cracks down on Western-funded NGOs or media | Up |
+| Georgia signs a major Western infrastructure or logistics agreement | Down |
+| US-Georgia relations cool or reset stalls | Up |
 
 ---
 
 ## Key Sources
+1. [JAMnews: Georgia PM's Annual Report](https://jam-news.net) — New agenda with the US, EU, and economic growth
+2. [Commonspace.eu: Georgia-Azerbaijan Agreements](https://commonspace.eu) — Energy security and regional trade debate
+3. [Imedi News: PM Welcomes New US Administration Approach](https://imedinews.ge) — Georgian PM on US reset
+4. [Commonspace.eu: German Ambassador Row](https://commonspace.eu) — GD pushback against EU pressure
+5. [US Embassy in Georgia: Democracy Statement](https://ge.usembassy.gov) — State Department delegation statement
+6. [Imedi News: EBRD Upgrades Growth Forecast](https://imedinews.ge) — 6% GDP growth projection
+7. [Imedi News: October 4 Coup Case Plea Deals](https://imedinews.ge) — Judicial developments
 
-1. JAMnews (June 2026) — Georgia PM's Annual Report: new agenda with the US, EU, and economic growth
-2. Commonspace.eu (June 2026) — New Georgia-Azerbaijan agreements spark debate over energy security and regional trade
-3. Commonspace.eu (June 2026) — PM Kobakhidze submitted his annual report to Georgian parliament
-4. Imedi News (June 2026) — Georgian PM welcomes new US administration's different approach
-5. Eurointegration.com.ua (June 2026) — What risks does a revision of Kyiv's policy towards Georgia's government pose?
-6. Imedi News (June 2026) — Georgian PM says German Ambassador's remarks do not deserve serious consideration
-7. Imedi News (June 2026) — EBRD upgrades Georgia's 2026 economic growth forecast to 6%
-8. Imedi News (June 2026) — Seven defendants admit guilt in October 4 coup attempt case
-9. US Embassy in Georgia (June 2026) — State Department Delegation statement on functioning democracy
+---
 
+## Disclaimer
+This free Watch Report is provided by IScann Group for informational and strategic awareness purposes only. It is not legal, investment, security, or government advice. Assessments are probabilistic and may change as new information becomes available.
+
+---
+
+## Notes
 *Report generated: 2026-06-04*
-*Confidence level: Medium*
+*Sources: Based on open-source reporting available as of 2026-06-04*
+*Methodology: Probability reflects IScann Group's analytic judgment, not a statistical model, unless otherwise stated.*
 *Next review: 2026-09-04*
