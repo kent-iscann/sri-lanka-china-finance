@@ -78,13 +78,13 @@ The key technological risk is that Kazakhstan becomes a **transit point** for Ch
 ## Probability Triggers
 | Thing | Direction |
 |-------|-----------|
-| Major Western sanctions designation against a Kazakh entity for sanctions-bypass | Down |
-| Russia successfully pressures Kazakhstan into formal sanctions-bypass arrangement | Down |
-| Significant private VC inflow into Kazakh tech sector (>$500M annually) | Up |
-| EU signs comprehensive trade/investment agreement with Kazakhstan | Up |
-| Kazakhstan joins a Western-led technology partnership (AI, semiconductors) | Up |
-| Oil price drops below $50/barrel sustained for 6+ months | Down |
-| Major crypto mining or data center investment from US/EU tech firms | Up |
+| Major Western sanctions designation against a Kazakh entity for sanctions-bypass | Up |
+| Russia successfully pressures Kazakhstan into formal sanctions-bypass arrangement | Up |
+| Significant private VC inflow into Kazakh tech sector (>$500M annually) | Down |
+| EU signs comprehensive trade/investment agreement with Kazakhstan | Down |
+| Kazakhstan joins a Western-led technology partnership (AI, semiconductors) | Down |
+| Oil price drops below $50/barrel sustained for 6+ months | Up |
+| Major US/EU tech firm announces substantial data center or AI compute investment in Kazakhstan | Down |
 
 ---
 
