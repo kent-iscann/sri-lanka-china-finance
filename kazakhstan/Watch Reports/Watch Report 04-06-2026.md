@@ -1,15 +1,27 @@
 # Watch Report 04-06-2026
 
-## Prediction
-
-Kazakhstan's economic diversification will continue to advance in the tech sector but fail to materially reduce hydrocarbon dependence over the next 18 months.
-
-**Probability:** 70%
-**Target Date:** December 2027
+## Metadata
+**Topic:** Kazakhstan — Global Competitiveness
+**Geography:** Kazakhstan, Central Asia
 
 ---
 
-## Justification
+## Signal & Fracture
+**Signal:** Kazakhstan's tech ecosystem is gaining genuine momentum.
+**Fracture:** Hydrocarbon reliance, Russian sanctions-era pressure, and an aversion to Western conditionality are forcing Kazakhstan into an untenable position.
+
+---
+
+## Prediction
+Kazakhstan's economic diversification will continue to advance over the next 18 months but not enough to provide the country with a viable third path.
+
+**Probability:** 70%
+**Target:** December 2027
+**Confidence:** Medium
+
+---
+
+## Analysis
 
 ### Political
 
@@ -29,7 +41,7 @@ Kazakhstan's economy remains structurally dependent on hydrocarbons. Oil and gas
 
 **Cryptocurrency mining was a cautionary tale.** The 2021–2022 mining boom strained the power grid, caused blackouts and public protests, and was partially banned in 2024. Some operations pivoted to AI data centers, but the episode revealed the gap between Kazakhstan's tech ambitions and its infrastructure reality.
 
-**China is the wildcard.** BRI investment and trade ($227.9B in 2025) provide an alternative to Western capital, but deepen dependence on Beijing. Chinese tech investment raises data security concerns in Washington similar to the Georgia dynamic with Anaklia port.
+**China is the wildcard.** BRI investment and trade ($227.9B in 2025) provide an alternative to Western capital, but deepen dependence on Beijing. Chinese tech investment raises data security concerns in Washington.
 
 **Resource curse dynamics persist.** Oil revenues fund the state apparatus. Diversification threatens vested interests. Corruption and weak rule of law deter foreign investment outside the resource sector.
 
@@ -53,17 +65,48 @@ The key technological risk is that Kazakhstan becomes a **transit point** for Ch
 
 ---
 
+## Watch Indicators
+- Russian oil price cap adjustments (currently $44.10/barrel) and any secondary sanctions designations involving Kazakh entities
+- Kazakhstan's compliance posture with Western sanctions — any public statements or policy shifts by Tokayev
+- Progress of Chinese infrastructure projects (ports, data centers, 5G)
+- Astana Hub funding levels and private venture capital inflows
+- Caspian Sea transit volume changes (proxy for sanctions-bypass activity)
+- EU–Central Asia engagement depth (summits, trade agreements, investment commitments)
+
+---
+
+## Probability Triggers
+| Thing | Direction |
+|-------|-----------|
+| Major Western sanctions designation against a Kazakh entity for sanctions-bypass | Down |
+| Russia successfully pressures Kazakhstan into formal sanctions-bypass arrangement | Down |
+| Significant private VC inflow into Kazakh tech sector (>$500M annually) | Up |
+| EU signs comprehensive trade/investment agreement with Kazakhstan | Up |
+| Kazakhstan joins a Western-led technology partnership (AI, semiconductors) | Up |
+| Oil price drops below $50/barrel sustained for 6+ months | Down |
+| Major crypto mining or data center investment from US/EU tech firms | Up |
+
+---
+
 ## Key Sources
+1. [SpecialEurasia: Putin-Tokayev Meeting](https://www.specialeurasia.com/2026/05/12/putin-tokayev-caspian-sea) — Russia is trying to anchor Kazakhstan more firmly into its sanctions-era architecture
+2. [Astana Times: AI & Digital Bridge 2026](https://astanatimes.com/2026/05/media-accreditation-opens-for-ai-digital-bridge-2026-in-kazakh-capital) — Major international IT forum focused on AI and digital transformation
+3. [Astana Times: Top 10 Rising Tech Hub](https://www.facebook.com/astanatimes/posts/kazakhstan-entered-the-top-10-of-the-rising-stars-category-in-dealroomcos-global/1443022721177771) — Kazakhstan enters Dealroom.co Global Tech Ecosystem Index top 10 Rising Stars
+4. [KPMG: Kazakhstan AI Readiness Report](https://www.sciencedirect.com/science/article/pii/S2444883426000161) — Assessment of Kazakhstan's AI ecosystem progress and gaps
+5. [Bloomberg: Kazakhstan as AI Innovation Hub](https://www.facebook.com/bloombergbusiness/posts/kazakhstan-built-an-entire-capital-city-from-scratch-now-the-authoritarian-petro/1411068477545908) — Kazakhstan pitching itself as AI hub for Western capital
+6. [LinkedIn: Crypto Mining Electricity Strain](https://www.linkedin.com/posts/alok-aggarwal-0a521_ai-ibm-futureofwork-activity-7461449450012459088-WTQB) — Grid strain from crypto mining leading to blackouts and protests
+7. [PEAK Events: Data Center & AI Infrastructure Central Asia 2026](https://www.peakevents.org/category/data-centers) — Regional data center and AI infrastructure forum in Astana
+8. [Lexology: UK Russian Oil Price Cap](https://www.lexology.com/library/detail.aspx?g=4aa3997c-ee14-4b76-aaa2-7360298cf181) — UK lowers Russian oil price cap to $44.10, increasing secondary sanctions risk
 
-1. SpecialEurasia (May 2026) — Putin-Tokayev Meeting: Why Matters for the Caspian Sea Region
-2. Astana Times (May 2026) — AI & Digital Bridge 2026 in Kazakh Capital
-3. Astana Times (2026) — Kazakhstan Top 10 Rising Stars in Dealroom.co Global Tech Ecosystem Index
-4. KPMG (2025) — Kazakhstan AI Readiness Report
-5. Bloomberg (2026) — Kazakhstan as AI Innovation Hub and Western Capital Destination
-6. LinkedIn/Alok Agarwal (2025) — Crypto Mining Electricity Strain and Blackouts
-7. PEAK Events (April 2026) — Data Center & AI Infrastructure Central Asia 2026
-8. Lexology (January 2026) — UK Russian Oil Price Cap Lowered to $44.10
+---
 
+## Disclaimer
+This free Watch Report is provided by IScann Group for informational and strategic awareness purposes only. It is not legal, investment, security, or government advice. Assessments are probabilistic and may change as new information becomes available.
+
+---
+
+## Notes
 *Report generated: 2026-06-04*
-*Confidence level: Medium*
+*Sources: Based on open-source reporting available as of 2026-06-04*
+*Methodology: Probability reflects IScann Group's analytic judgment, not a statistical model, unless otherwise stated.*
 *Next review: 2026-09-04*

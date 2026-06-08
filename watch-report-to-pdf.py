@@ -116,7 +116,8 @@ def parse_watch_report(md_path, prev_md_path=None):
     target_m = re.search(r'Target\s*:\s*(.+?)(?:\n|$)', pred_clean)
     target_date = target_m.group(1).strip() if target_m else ''
 
-    conf_m = re.search(r'Confidence\s*:\s*(\w+)', pred_clean)
+    # Extract confidence from raw markdown (before convert_markdown)
+    conf_m = re.search(r'\*\*Confidence:\*\*\s*(\w+)', pred_raw)
     confidence = conf_m.group(1).strip() if conf_m else ''
 
     # Prediction sentence = first non-meta paragraph
@@ -191,7 +192,7 @@ def parse_watch_report(md_path, prev_md_path=None):
     notes_match = re.search(r'## Notes\s*\n(.*?)(?=\n---|\Z)', content, re.DOTALL)
     if notes_match:
         for line in notes_match.group(1).strip().split('\n'):
-            line = line.strip().lstrip('*').strip()
+            line = line.strip().strip('*').strip()
             if 'Report generated:' in line:
                 notes['generated'] = line.split(':', 1)[1].strip()
             elif 'Sources:' in line:
