@@ -2,4 +2,4 @@
 
 | # | Date | Prediction | Probability | Target Date |
 |---|------|------------|-------------|-------------|
-| 1 | 09-06-2026 | Armenia and Azerbaijan will fail to sign a comprehensive peace treaty over the next 12 months, as Pashinyan's lack of a constitutional supermajority prevents the domestic reforms Azerbaijan demands as a precondition, while Russian interference and unresolved border issues further erode trust. | 75% | June 2027 |
+| 1 | 09-06-2026 | Armenia and Azerbaijan will fail to sign a comprehensive peace treaty over the next 12 months. | 75% | June 2027 |
