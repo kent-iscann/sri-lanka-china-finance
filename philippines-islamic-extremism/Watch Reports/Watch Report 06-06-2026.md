@@ -13,7 +13,7 @@
 ---
 
 ## Prediction
-The Bangsamoro peace process will survive its first parliamentary election on September 14, 2026, but the combination of intra-MILF rivalries, Marcos administration oversight, and ongoing ISIS-affiliated activity in Lanao del Sur will prevent a clean transfer of power, requiring an extension of the transitional BTA into early 2027.
+The Marcos administration will use the BTA extension to increase Manila's direct influence over BARMM governance, reducing MILF autonomy in the name of election stability.
 
 **Probability:** 70%
 **Target:** March 2027
@@ -64,12 +64,12 @@ China's digital infrastructure investments in Southeast Asia (under BRI) give Be
 ## Probability Triggers
 | Thing | Direction |
 |-------|-----------|
-| Major intra-MILF violence or candidate disqualification crisis | Up |
-| Marcos administration unilaterally extends BTA without MILF consent | Down |
-| ISIS-affiliated group conducts major attack in BARMM during election period | Up |
-| MILF and Marcos reach pre-election power-sharing agreement | Down |
-| International community formally endorses the election timeline | Down |
-| Philippine military redeploys significant forces from Mindanao to South China Sea | Up |
+| Marcos administration announces BTA extension with new Manila-appointed oversight powers | Up |
+| MILF publicly rejects the extension terms or boycotts the process | Down |
+| Marcos appoints new BARMM officials without MILF consultation | Up |
+| International mediators broker a power-sharing agreement preserving MILF autonomy | Down |
+| Philippine military increases presence in BARMM citing election security | Up |
+| MILF factions unite against Manila's extension terms | Down |
 
 ---
 

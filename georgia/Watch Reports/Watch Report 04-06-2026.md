@@ -13,7 +13,7 @@
 ---
 
 ## Prediction
-Georgia will continue its strategic drift over the next 18 months, maintaining transactional relationships with the US, Russia, and the EU without firmly anchoring to any single camp.
+The US reset will deepen over the next 18 months, giving Georgian Dream enough cover to further delay EU accession reforms without triggering a definitive break with Washington.
 
 **Probability:** 75%
 **Target:** December 2027
@@ -68,12 +68,12 @@ Georgia's ICT sector continues to grow, but the technological dimension of Georg
 ## Probability Triggers
 | Thing | Direction |
 |-------|-----------|
-| US announces concrete security or infrastructure commitment to Georgia | Down |
+| US announces new security or economic commitment to Georgia | Down |
 | EU grants Georgia candidate status or advances accession talks | Down |
-| Russia formalizes a security arrangement with Georgia | Up |
-| GD cracks down on Western-funded NGOs or media | Up |
-| Georgia signs a major Western infrastructure or logistics agreement | Down |
 | US-Georgia relations cool or reset stalls | Up |
+| GD accelerates democratic reforms to preempt EU pressure | Down |
+| Russia formalizes a new security or economic arrangement with Georgia | Up |
+| US publicly criticizes GD's democratic backsliding | Up |
 
 ---
 
