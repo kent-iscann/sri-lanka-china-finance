@@ -13,7 +13,7 @@
 ---
 
 ## Prediction
-China's infrastructure-for-minerals model in Southern Africa will face increasing resistance from host-nation resource nationalism over the next 12 months, forcing Chinese firms to shift from raw extraction to domestic processing and value-addition.
+Chinese firms will accept host-nation processing demands and build domestic beneficiation plants across Southern Africa over the next 12 months, deepening technological lock-in rather than losing control of critical mineral supply chains.
 
 **Probability:** 70%
 **Target:** June 2027
@@ -54,12 +54,12 @@ China's technological edge in Southern African mining is twofold: extraction/ref
 ## Probability Triggers
 | Thing | Direction |
 |-------|-----------|
-| Zimbabwe or Zambia imposes additional raw mineral export bans | Up |
-| Chinese firm announces major new in-country processing facility | Up |
-| US or EU signs critical minerals processing agreement with a Southern African nation | Down |
-| China increases infrastructure financing contingent on raw export access | Down |
+| Chinese firm announces major new in-country processing facility in Zimbabwe/Zambia/DRC | Up |
+| Host nation expropriates or forces renegotiation of a Chinese mining concession | Down |
 | Western firm announces large-scale processing investment in Southern Africa | Down |
-| African Union adopts continent-wide beneficiation mandate | Up |
+| China finishes construction of a lithium/cobalt processing plant in Southern Africa | Up |
+| African Union adopts continent-wide beneficiation mandate with enforcement teeth | Down |
+| Chinese tech lock-in deepens as local plants use proprietary Chinese processing technology | Up |
 
 ---
 
