@@ -394,6 +394,7 @@ body {{
     font-size: 8pt;
     font-weight: 600;
     padding: 1.5mm 3mm;
+    border-radius: 2mm;
     letter-spacing: 0.5px;
 }}
 
