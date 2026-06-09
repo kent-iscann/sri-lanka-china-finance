@@ -13,7 +13,7 @@
 ---
 
 ## Prediction
-[Exactly one sentence — the core prediction - what is likely to happen and by when]
+[Exactly one sentence — the core prediction. Must project an OUTCOME, not restate the Signal or Fracture. The Signal describes what's happening; the Fracture describes the tension; the Prediction says what *results*. Test: if you can rewrite the prediction by changing the Signal's tense from present to future, it's a restatement, not a prediction.]
 **Probability:** [XX%]
 **Target:** [date]
 **Confidence:** [Low/Medium/High]
