@@ -363,7 +363,7 @@ body {{
     white-space: nowrap;
 }}
 .header-title {{
-    font-size: 11pt;
+    font-size: 12pt;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -400,10 +400,8 @@ body {{
 
 /* ── Signal & Fracture ── */
 .signal-fracture {{
-    background: #0A1426;
-    border-left: 4px solid #E8A33D;
-    margin: 2mm 20mm;
-    padding: 5mm 6mm;
+    margin: 2mm 0;
+    padding: 5mm 0;
 }}
 .sf-item {{
     display: flex;
@@ -414,11 +412,12 @@ body {{
     margin-bottom: 0;
 }}
 .sf-label {{
-    font-size: 9pt;
+    font-size: 9.5pt;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
     text-transform: uppercase;
-    color: #E8A33D;
+    color: #5FA8C4;
+    border-left: 2px solid #E8A33D;
     min-width: 22mm;
     flex-shrink: 0;
 }}
@@ -452,7 +451,7 @@ body {{
     flex-shrink: 0;
 }}
 .prob-number {{
-    font-size: 72pt;
+    font-size: 48pt;
     font-weight: 300;
     line-height: 1;
 }}
@@ -470,23 +469,27 @@ body {{
     margin-top: 3mm;
 }}
 .prob-delta {{
-    font-size: 10pt;
+    font-size: 9pt;
     font-weight: 600;
     opacity: 0.9;
     margin-top: 2mm;
     display: block;
 }}
 .prob-target {{
-    font-size: 11pt;
-    font-weight: 400;
-    opacity: 0.85;
+    font-size: 9pt;
+    font-weight: 600;
+    opacity: 0.8;
     margin-top: 3mm;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }}
 .prob-confidence {{
-    font-size: 11pt;
-    font-weight: 400;
-    opacity: 0.85;
+    font-size: 9pt;
+    font-weight: 600;
+    opacity: 0.8;
     margin-top: 2mm;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }}
 
 /* ── What's New ── */
@@ -681,8 +684,8 @@ body {{
 
 <div class="header">
     <div class="header-left">
-        <span class="header-title">Watch Report</span>
-        <span class="header-brand">Signal &amp; Fracture · IScann Group</span>
+        <span class="header-title">Watch Report | </span>
+        <span class="header-brand">Signal &amp; Fracture by IScann Group</span>
     </div>
     <div class="header-date">{s['report_date']}</div>
 </div>
