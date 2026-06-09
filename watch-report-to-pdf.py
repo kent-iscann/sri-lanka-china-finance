@@ -372,10 +372,11 @@ body {{
     font-size: 10pt;
     font-weight: 300;
     letter-spacing: 0.5px;
+    color: #A6B3C2;
 }}
 .header-date {{
     font-size: 9pt;
-    color: #bbb;
+    color: #A6B3C2;
     font-weight: 300;
     letter-spacing: 0.5px;
 }}
@@ -398,7 +399,7 @@ body {{
 
 /* ── Signal & Fracture ── */
 .signal-fracture {{
-    margin: 2mm 0;
+    margin: 2mm 20mm;
     padding: 5mm 0;
 }}
 .sf-item {{
@@ -418,11 +419,11 @@ body {{
     border-left: 2px solid #E8A33D;
     min-width: 22mm;
     flex-shrink: 0;
+    padding-left: 5px;
 }}
 .sf-text {{
     font-size: 9pt;
     line-height: 1.6;
-    color: #E8E6DF;
 }}
 
 /* ── Prediction banner ── */
