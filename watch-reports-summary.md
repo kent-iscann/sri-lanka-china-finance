@@ -35,4 +35,4 @@
 
 | # | Date | Prediction | Probability | Target |
 |---|------|------------|-------------|--------|
-| 1 | 09-06-2026 | Russia escalates interference but stops short of military intervention | 75% | Jun 2027 |
+| 1 | 09-06-2026 | Peace treaty fails; constitutional deadlock persists | 75% | Jun 2027 |

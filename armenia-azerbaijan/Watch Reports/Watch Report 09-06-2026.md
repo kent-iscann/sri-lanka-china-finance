@@ -13,7 +13,7 @@
 ---
 
 ## Prediction
-Russia will escalate interference in Armenian domestic politics over the next 12 months, using the unresolved border situation, economic pressure, and information operations to undermine Pashinyan's government and disrupt the peace process, but will stop short of direct military intervention.
+Armenia and Azerbaijan will fail to sign a comprehensive peace treaty over the next 12 months, as Pashinyan's lack of a constitutional supermajority prevents the domestic reforms Azerbaijan demands as a precondition, while Russian interference and unresolved border issues further erode trust.
 
 **Probability:** 75%
 **Target:** June 2027
@@ -25,11 +25,13 @@ Russia will escalate interference in Armenian domestic politics over the next 12
 
 ### Political
 
-Pashinyan's re-election with a parliamentary majority (49.8%) provides domestic legitimacy to pursue peace with Azerbaijan and the Western pivot. But the election was marred by documented Russian interference — the Storm-1516 bot network ran 30+ campaigns targeting Armenia, and international monitors documented blatant meddling. Russia's goal is to weaken Pashinyan and install a more compliant government.
+Pashinyan's re-election with a parliamentary majority (64 of 105 seats) provides domestic legitimacy to pursue peace with Azerbaijan and the Western pivot. But the election was marred by documented Russian interference — the Storm-1516 bot network ran 30+ campaigns targeting Armenia, and international monitors documented blatant meddling. Russia's goal is to weaken Pashinyan and install a more compliant government.
 
-Putin has explicitly compared Armenia's Western pivot to Ukraine's path before 2014, warning that Yerevan's course could lead to a similar "Ukrainian scenario." This is not idle rhetoric — Russia still has significant leverage through Armenia's energy dependence, the presence of Russian border guards, and its role as Armenia's largest arms supplier (though Armenia is actively diversifying).
+**The critical constraint: Pashinyan lacks the two-thirds supermajority needed for constitutional reform.** Azerbaijan has demanded that Armenia adopt a new constitution removing references to Nagorno-Karabakh as a precondition for signing a peace treaty. Initiating constitutional reform requires at least two-thirds of parliament (70 seats). Pashinyan's Civil Contract holds 64 seats. The two Russian-leaning opposition parties that won the remaining seats (Strong Armenia with 29 seats, and others) will not support constitutional changes that advance the peace process — doing so would hand Pashinyan a victory and contradict their pro-Russian orientation. Without opposition support, Pashinyan cannot initiate the constitutional process, creating a structural deadlock that Azerbaijan can exploit.
 
-The domestic opposition is fragmented but pro-Russian. Former president Robert Kocharyan's Armenia Alliance has challenged Pashinyan's legitimacy and could serve as a vehicle for Russian influence if Pashinyan weakens.
+Putin has explicitly compared Armenia's Western pivot to Ukraine's path before 2014, warning that Yerevan's course could lead to a similar "Ukrainian scenario." This is not idle rhetoric — Russia still has significant leverage through Armenia's energy dependence, the presence of Russian border guards, and economic pressure (Putin threatened measures that could cost Armenia 14% of GDP).
+
+The domestic opposition is fragmented but pro-Russian. Former president Robert Kocharyan's Armenia Alliance and Samvel Karapetian's Strong Armenia party (whose leader is under house arrest) serve as vehicles for Russian influence. OSCE observers noted "numerous criminal proceedings of opposition candidates" that suppressed opposition campaigning, but also documented Russian "direct pressure from abroad in the form of escalating trade restrictions and security threats."
 
 On the Azerbaijan side, Aliyev holds a dominant position militarily and territorially. He controls strategic positions inside Armenian territory along the 7,644 km border. His demands for a transit corridor through southern Armenia (Zangezur) and full peace terms reflect Azerbaijan's victory in the 2020-2023 campaigns. Aliyev can afford to wait — time is on his side as Armenia weakens and Azerbaijan's military and economic power grows.
 
@@ -73,14 +75,14 @@ Turkey's normalization with Armenia includes potential cooperation on telecommun
 ## Probability Triggers
 | Thing | Direction |
 |-------|-----------|
-| Major border incident between Armenia and Azerbaijan | Up |
-| Russia conducts new documented interference operation in Armenia | Up |
+| Pashinyan announces a deal with opposition parties on constitutional reform | Down |
+| Azerbaijan escalates border incidents or makes new military threats | Up |
+| Major Russian information operation targeting Armenian peace process | Up |
 | US announces concrete TRIPP corridor timeline or funding | Down |
-| Armenia-Azerbaijan sign a comprehensive peace treaty | Down |
-| Putin makes explicit military threat against Armenia | Up |
-| Turkey fully opens border with Armenia | Down |
 | Pashinyan's government weakens significantly (coalition collapse, protests) | Up |
-| Trump administration shifts focus away from South Caucasus | Up |
+| Turkey fully opens border with Armenia | Down |
+| Armenia-Azerbaijan announce a framework peace agreement | Down |
+| Russia conducts new documented interference operation in Armenia | Up |
 
 ---
 
@@ -88,11 +90,11 @@ Turkey's normalization with Armenia includes potential cooperation on telecommun
 1. [Reuters: Russia's Covert Efforts to Stop Armenia's Pivot West](https://www.reuters.com/world/imported-voters-fake-websites-russias-covert-efforts-stop-armenias-pivot-west-2026-05-29) — Exclusive on Russian election interference, Storm-1516, Rubio visit
 2. [Stars and Stripes: Russia Meddling in Armenian Elections](https://www.stripes.com/opinion/2026-06-04/armenia-election-russia-tripp-21873044.html) — TRIPP corridor stakes and Putin's "Ukrainian scenario" warning
 3. [ZOIS Berlin: Russia and Armenia's 2026 Parliamentary Elections](https://www.zois-berlin.de/en/publications/zois-spotlight/russia-and-armenias-2026-parliamentary-elections) — Analysis of Russian disinformation campaigns
-4. [Turkish Minute: Armenian Elections Put Rapprochement with Turkey at Stake](https://www.turkishminute.com/2026/05/25/looming-armenian-elections-put-rapprochement-with-turkey-at-stake) — Turkey normalization process and railway reopening
-5. [SpecialEurasia: Turkey-Armenia Trade Easing](https://www.specialeurasia.com/2026/05/19/turkey-armenia-trade-easing) — Analysis of 33-year border easing
-6. [Euractiv: Turkey and Armenia to Restart Direct Trade](https://www.euractiv.com/news/turkey-and-armenia-to-restart-direct-trade-ankara) — Formal resumption of trade relations
-7. [CBC News: Pashinyan Wins Election, Observers Allege Russian Interference](https://www.cbc.ca/news/world/armenia-election-pashinyan-9.7227155) — Election results and interference documentation
-8. [France 24: Armenia's Parliamentary Election a Vote on Geopolitical Future](https://www.youtube.com/watch?v=htFk14fzpEs) — Analysis of election as referendum on Russia vs. West
+4. [ISD: Russian Information Campaigns Targeting Armenia](https://www.facebook.com/ISDglobal/posts/new-isd-analysis-finds-that-multiple-russian-state-sponsored-and-aligned-informa/1415736060594354) — 30+ Storm-1516 campaigns targeting Armenia
+5. [Turkish Minute: Armenian Elections Put Rapprochement with Turkey at Stake](https://www.turkishminute.com/2026/05/25/looming-armenian-elections-put-rapprochement-with-turkey-at-stake) — Turkey normalization process and railway reopening
+6. [RFE/RL: Pashinian Wins In Armenia, But No Super-Majority](https://www.rferl.org/a/pashinian-armenia-victory-election-russia-rejection/33775876.html) — Election results (64 of 105 seats), constitutional reform deadlock, peace process implications
+7. [Euractiv: Turkey and Armenia to Restart Direct Trade](https://www.euractiv.com/news/turkey-and-armenia-to-restart-direct-trade-ankara) — Formal resumption of trade relations after 33 years
+8. [CBC News: Pashinyan Wins Election, Observers Allege Russian Interference](https://www.cbc.ca/news/world/armenia-election-pashinyan-9.7227155) — Election results and interference documentation
 
 ---
 
