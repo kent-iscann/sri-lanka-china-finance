@@ -16,6 +16,7 @@ Manage a multi-topic research wiki system. Each topic lives in its own folder un
 |------|---------|
 | `references/weekly-source-monitor-prompt.md` | Cron prompt template for weekly source monitor |
 | `references/monthly-watch-report-prompt.md` | Cron prompt template for monthly watch report |
+| `references/watch-report-review-prompt.md` | Quality review checklist for watch reports (pre-publication) |
 | `references/pdf-script-parsing.md` | PDF script parsing rules and regex details |
 | `templates/index.md` | Starter index.md for a new topic |
 | `templates/sources.md` | Starter sources.md |
@@ -96,7 +97,14 @@ topics:
    - **Disclaimer** and **Notes** (auto-generated footer)
    - **MUST use `---` separators** between ALL sections (see Pitfalls)
 
-5. **Generate the PDF** using the shared script:
+Step 4b: **Run the review prompt** (load `references/watch-report-review-prompt.md`):
+  - Substitute `{report_path}` with the path to the markdown file written in Step 4
+  - Execute the review and capture the JSON output
+  - If overall is FAIL: revise the report to address all FAIL issues, then re-run the review
+  - If overall is PASS: proceed to Step 5
+  - WARN items should be addressed but are not blockers
+
+Step 5: **Generate the PDF** using the shared script:
    ```bash
    /tmp/pdfenv/bin/python3 /root/wiki/watch-report-to-pdf.py \
      "/root/wiki/<slug>/Watch Reports/Watch Report <DD-MM-YYYY>.md" \
@@ -171,6 +179,20 @@ Read `/root/wiki/_config.yaml` and for each topic show: name, slug, path, creati
 
 Trigger the appropriate cron job early via `cronjob(action='run', job_id=<id>)`.
 
+### Review a Watch Report
+
+**Trigger:** User says "review <topic>", "check <topic> report", or asks for a quality review of a specific report.
+
+1. Read the latest watch report markdown file for the topic
+2. Load `references/watch-report-review-prompt.md`
+3. Substitute `{report_path}` with the report path
+4. Execute the review against all 9 criteria
+5. Output the JSON review result
+6. If FAIL: suggest specific revisions and offer to apply them
+7. If PASS: confirm the report is ready for publication
+
+This can also be run manually on any report markdown file by providing the full path.
+
 ## Analytical Framework
 
 ### Purpose & Audience
@@ -190,7 +212,7 @@ The prediction is the single most important sentence in the report. It's what ge
 - **Time-bound.** Every prediction has a target date. No target date = no track record.
 - **Specific enough to matter.** The prediction should be precise enough that getting it right demonstrates real analytical skill, not luck. "Something will happen in Sri Lanka" is worthless. "China will restructure Sri Lanka's bilateral debt on terms that defer principal payments by 18+ months, announced before Q3 2026" is a prediction.
 - **One sentence. Always.** No compound predictions, no "either X or Y." If you can't state it in one sentence, you haven't sharpened the thinking enough. Avoid clarifying clauses, be concise.
-- **End with the outcome, not the consequence.** The prediction should state what *will happen*, not what it *means* or *leads to*. Example — BAD: "Kazakhstan's diversification will advance, leaving the country caught between Russia and China without a viable third path." GOOD: "Kazakhstan's economic diversification will continue to advance over the next 18 months but not enough to provide the country with a viable third path." The prediction sentence ends with the concrete outcome. Do not trail off into implications.
+- **End with the outcome, not the consequence.** The prediction should state what *will happen*, not what it *means* or *leads to*. Example — BAD: "Kazakhstan's diversification will advance, leaving the country caught between Russia and China without a viable third path." GOOD: "Kazakhstan's economic diversification will not advance enough over the next 18 months to provide the country with a viable third path." The prediction sentence ends with the concrete outcome. Do not trail off into implications.
 
 ### Signal & Fracture Writing Style
 
@@ -198,8 +220,20 @@ These are the headline takeaways — they must be crisp and direct.
 
 - **Signal:** One sentence. The key observable development or trend. No data points, no clarifiers, no subordinate clauses. Example: "Kazakhstan's tech ecosystem is gaining genuine momentum." NOT "Kazakhstan's tech ecosystem is gaining genuine momentum — top 10 'Rising Stars' in Dealroom.co's 2026 index, a dedicated Ministry of AI, and major international forums."
 - **Fracture:** One sentence. The stress point or risk that could disrupt the status quo. Concise, no examples or caveats. Example: "Hydrocarbon reliance, Russian sanctions-era pressure, and an aversion to Western conditionality are forcing Kazakhstan into an untenable position."
-- **Prediction:** One sentence. Direct and concise. Avoid "leaving the country increasingly caught between X and Y without a viable third path" — just state what will happen. Example: "Kazakhstan's economic diversification will not advance enough over the next 18 months to provide the country with a viable third path."
-- **Rule:** If a reader only reads Signal, Fracture, and Prediction, they should understand the entire thesis. The Analysis section provides the evidence and reasoning — the headline sections should not duplicate it. 
+- **Prediction:** One sentence. Direct and concise. Avoid "leaving the country increasingly caught between X and Y without a viable third path" — just state what will happen. Example: "Kazakhstan's economic diversification will continue to advance over the next 18 months but not enough to provide the country with a viable third path."
+- **Rule:** If a reader only reads Signal, Fracture, and Prediction, they should understand the entire thesis. The Analysis section provides the evidence and reasoning — the headline sections should not duplicate it.
+
+### Prediction Distinctness Rule
+
+**The prediction must NOT restate the Signal or Fracture.** This is the most common failure mode in watch report writing.
+
+- **Signal** = what is happening now (observable development)
+- **Fracture** = the tension or stress point (why it matters)
+- **Prediction** = what *results* from this dynamic (the outcome, not the conflict)
+
+Test: If the prediction can be rewritten by simply changing the Signal's tense from present to future, it's not a prediction — it's a restatement. Example — BAD: Signal says "Georgia is pursuing transactional relationships," Prediction says "Georgia will continue its strategic drift." GOOD: "The US reset will deepen, giving Georgian Dream enough cover to further delay EU accession reforms."
+
+The prediction should say something the Signal and Fracture *don't* say — it should project the consequence of the dynamic, not describe the dynamic itself.
 
 ### Analytical Reasoning: Evidence → Inference → Prediction
 
@@ -238,6 +272,26 @@ The report includes a confidence rating (Low/Medium/High). Be honest:
 - **Justification after the fact.** Writing the prediction first and then reverse-engineering the justification. The justification should be the *reason* for the prediction, not a post-hoc rationalization.
 - **False precision.** "67% probability" signals false precision. Use broad bands: 50-60% (coin flip leaning), 60-75% (likely), 75%+ (high confidence). Round numbers.
 - **Cross-topic references in Analysis.** Analysis sections must be self-contained. Do not reference concepts, events, projects, or place names from other topics (e.g., "the Georgia dynamic with Anaklia port" in a Kazakhstan report). Readers of one topic may not have read others. Even well-known place names (Anaklia, Hambantota, Gwadar) should be briefly contextualized, not dropped in as assumed knowledge. Explain the concept inline or use generic language.
+- **Probability Triggers directional logic.** The Up/Down direction for each trigger is relative to the prediction being TRUE — NOT to the topic being "good" or "bad" in some absolute sense. Up = this event makes the prediction MORE likely. Down = this event makes the prediction LESS likely. Always verify by asking: "If this trigger fires, does my prediction become more or less probable?" A common failure mode is inverting all directions when the prediction is phrased negatively (e.g., "X will NOT happen" vs "X will happen"). The direction follows the prediction's truth value, not the emotional valence of the trigger.
+- **Signal & Fracture extraction from Analysis.** When migrating old-format reports (Justification section) to the new template, Signal and Fracture must be concise distillations of the Analysis — not new unsupported claims. The Signal is the key observable trend; the Fracture is the stress point that could disrupt the status quo. Both must be grounded in evidence already presented in the Analysis.
+
+## Migrating Old-Format Reports to New Template
+
+Old-format reports have: `## Justification` with Political/Economic/Military/Technological subsections, bare `## Key Sources`, and a bare footer.
+
+To migrate:
+1. Add **Metadata** section at top (Topic, Geography)
+2. Add **Signal & Fracture** — extract from existing Analysis content
+3. Keep **Prediction** (Probability, Target, Confidence) as-is
+4. Rename `## Justification` → `## Analysis` (keep Political/Economic/Military/Technological subsections)
+5. Add **Watch Indicators** — 5-7 bullet points of key things to monitor
+6. Add **Probability Triggers** — table with Thing/Direction columns (verify directional logic against the prediction)
+7. Keep **Key Sources** (add hyperlinks if missing)
+8. Add **Disclaimer** section
+9. Format **Notes** with `*italic*` markers on separate lines
+10. Add `---` separators between ALL sections
+11. Regenerate PDF and upload to R2
+12. Commit and push
 
 ## Key Rules
 

@@ -11,11 +11,26 @@ Step 2: Identify what has changed since the last watch report.
 Step 3: Decide: new report (3+ new sources or major development) or update existing.
 
 Step 4: Write/update the watch report at /root/wiki/{slug}/Watch Reports/Watch Report <DD-MM-YYYY>.md:
+  - Metadata (Topic, Geography)
+  - Signal & Fracture (one sentence each)
   - Prediction: exactly ONE sentence. Keep it identical to previous reports unless the prediction itself has genuinely changed.
-  - Probability and target date
+  - Probability, Target date, Confidence
   - "What's New" section: ONLY if this is NOT the first report. Use bullet points.
-  - Justification: Political, Economic, Military, Technological analysis
-  - Key Sources
+  - Analysis: Political, Economic, Military, Technological subsections
+  - Watch Indicators: 5-7 bullet points
+  - Probability Triggers: table with Thing/Direction columns
+  - Key Sources: numbered list with hyperlinks
+  - Disclaimer
+  - Notes (with *italic* markers)
+  - MUST use `---` separators between ALL sections
+
+Step 4b: Run the review prompt:
+  - Load references/watch-report-review-prompt.md
+  - Substitute {report_path} with the path to the markdown file written in Step 4
+  - Execute the review and capture the JSON output
+  - If overall is FAIL: revise the report to address all FAIL issues, then re-run the review
+  - If overall is PASS: proceed to Step 5
+  - WARN items should be addressed but are not blockers
 
 Step 5: Update /root/wiki/{slug}/index.md.
 
