@@ -436,7 +436,7 @@ body {{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 68mm;
+    min-height: 48mm;
     padding: 10mm 10mm;
 }}
 .pred-body {{
