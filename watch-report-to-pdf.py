@@ -189,18 +189,31 @@ def parse_watch_report(md_path, prev_md_path=None):
 
     # ---- Notes ----
     notes = {}
-    notes_match = re.search(r'## Notes\s*\n(.*?)(?=\n---|\Z)', content, re.DOTALL)
+    notes_match = re.search(r'## Notes\\s*\\n(.*?)(?=\\n---|\\Z)', content, re.DOTALL)
     if notes_match:
-        for line in notes_match.group(1).strip().split('\n'):
-            line = line.strip().strip('*').strip()
-            if 'Report generated:' in line:
-                notes['generated'] = line.split(':', 1)[1].strip()
-            elif 'Sources:' in line:
-                notes['sources'] = line.split(':', 1)[1].strip()
-            elif 'Methodology:' in line:
-                notes['methodology'] = line.split(':', 1)[1].strip()
-            elif 'Next review:' in line:
-                notes['next_review'] = line.split(':', 1)[1].strip()
+        raw_notes = notes_match.group(1).strip()
+        # Try single-line prose format first: "This report was generated on <date> based on open-source reporting available as of <date>..."
+        if 'This report was generated' in raw_notes:
+            m_gen = re.search(r'generated on (.+?) based on', raw_notes)
+            m_src = re.search(r'available as of (.+?)\. The probability', raw_notes)
+            m_meth = re.search(r'probability reflects (.+?)\. The next', raw_notes)
+            m_rev = re.search(r'next review is scheduled for (.+?)\.', raw_notes)
+            if m_gen: notes['generated_gen'] = m_gen.group(1).strip()
+            if m_src: notes['sources_src'] = m_src.group(1).strip()
+            if m_meth: notes['notes_meth'] = m_meth.group(1).strip()
+            if m_rev: notes['next_rev'] = m_rev.group(1).strip()
+        else:
+            # Old multi-line format with individual *italic* entries
+            for line in raw_notes.split('\\n'):
+                line = line.strip().strip('*').strip()
+                if 'Report generated:' in line:
+                    notes['generated_gen'] = line.split(':', 1)[1].strip()
+                elif 'Sources:' in line:
+                    notes['sources_src'] = line.split(':', 1)[1].strip()
+                elif 'Methodology:' in line:
+                    notes['notes_meth'] = line.split(':', 1)[1].strip()
+                elif 'Next review:' in line:
+                    notes['next_rev'] = line.split(':', 1)[1].strip()
 
     return {
         'report_date': report_date,
@@ -418,7 +431,6 @@ body {{
     letter-spacing: 0.8px;
     text-transform: uppercase;
     color: #5FA8C4;
-    border-left: 2px solid #E8A33D;
     min-width: 22mm;
     flex-shrink: 0;
     padding-left: 5px;
