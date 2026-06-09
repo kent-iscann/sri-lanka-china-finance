@@ -430,7 +430,7 @@ body {{
     font-weight: 700;
     letter-spacing: 0.8px;
     text-transform: uppercase;
-    color: #5FA8C4;
+    color: #E8A33D;
     min-width: 22mm;
     flex-shrink: 0;
     padding-left: 5px;
