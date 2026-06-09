@@ -388,13 +388,11 @@ body {{
     flex-wrap: wrap;
 }}
 .badge {{
-    background: #0A1426;
-    border: 1px solid #1E3A5F;
-    color: #5FA8C4;
+    background: #5FA8C4;
+    color: #05080F;
     font-size: 8pt;
-    font-weight: 500;
+    font-weight: 600;
     padding: 1.5mm 3mm;
-    border-radius: 2mm;
     letter-spacing: 0.5px;
 }}
 
