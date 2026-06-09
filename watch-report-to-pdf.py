@@ -375,7 +375,7 @@ body {{
     color: #A6B3C2;
 }}
 .header-date {{
-    font-size: 9pt;
+    font-size: 10pt;
     color: #A6B3C2;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -407,6 +407,7 @@ body {{
     display: flex;
     gap: 4mm;
     margin-bottom: 3mm;
+    border:0;
 }}
 .sf-item:last-child {{
     margin-bottom: 0;
@@ -421,6 +422,7 @@ body {{
     min-width: 22mm;
     flex-shrink: 0;
     padding-left: 5px;
+    line-height: 1.6;
 }}
 .sf-text {{
     font-size: 9pt;
@@ -435,7 +437,7 @@ body {{
     justify-content: space-between;
     align-items: center;
     min-height: 68mm;
-    padding: 10mm 20mm;
+    padding: 10mm 10mm;
 }}
 .pred-body {{
     flex: 1;
@@ -684,7 +686,7 @@ body {{
 
 <div class="header">
     <div class="header-left">
-        <span class="header-title">Watch Report | </span>
+        <span class="header-title">Watch Report |</span>
         <span class="header-brand">Signal &amp; Fracture by IScann Group</span>
     </div>
     <div class="header-date">{s['report_date']}</div>
