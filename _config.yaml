@@ -73,3 +73,16 @@ topics:
     cron_jobs:
       weekly_source_monitor: "5aaf1dd82283"
       monthly_watch_report: "4aa9baba9300"
+  - name: "Armenia-Azerbaijan Relations"
+    slug: "armenia-azerbaijan"
+    path: "/root/wiki/armenia-azerbaijan"
+    created: "2026-06-09"
+    search_queries:
+      - "Armenia Azerbaijan peace treaty 2026"
+      - "Russia Armenia relations Pashinyan 2026"
+      - "Turkey Armenia border opening trade 2026"
+      - "TRUMP Route International Peace Prosperity corridor Armenia"
+      - "Azerbaijan military Armenia border 2026"
+    cron_jobs:
+      weekly_source_monitor: "58c8e7d6d3a3"
+      monthly_watch_report: "d060f6392ec9"

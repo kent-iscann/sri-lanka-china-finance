@@ -29,4 +29,10 @@
 
 | # | Date | Prediction | Probability | Target |
 |---|------|------------|-------------|--------|
-| 1 | 06-06-2026 | BARMM election survives but BTA extension required | 70% | Mar 2027 |
+| 1 | 06-06-2026 | Peace process survives election; BTA extension needed | 70% | Mar 2027 |
+
+## [Armenia-Azerbaijan Relations](armenia-azerbaijan/watch-reports-summary.md)
+
+| # | Date | Prediction | Probability | Target |
+|---|------|------------|-------------|--------|
+| 1 | 09-06-2026 | Russia escalates interference but stops short of military intervention | 75% | Jun 2027 |
