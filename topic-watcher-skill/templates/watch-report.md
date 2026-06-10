@@ -48,7 +48,7 @@ Only include this section for 2nd+ reports. Bullet points:
 ---
 
 ## Probability Triggers
-[What are the things what would need to happen in order for the probability to go up or down - formatted as a table with 2 columns: Thing and Upward/Downward]
+[What are the things what would need to happen in order for the probability to go up or down - formatted as a table with 2 columns: Event and Direction]
 
 ---
 
