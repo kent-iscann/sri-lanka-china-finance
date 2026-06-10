@@ -415,7 +415,6 @@ body {{
     color: #E8A33D;
     min-width: 22mm;
     flex-shrink: 0;
-    padding-left: 5px;
     line-height: 1.6;
 }}
 .sf-text {{
