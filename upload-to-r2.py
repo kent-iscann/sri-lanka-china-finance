@@ -3,7 +3,12 @@
 Upload a Watch Report PDF to Cloudflare R2 and update the manifest.
 Uses boto3 (S3-compatible) — no AWS CLI required.
 
-Usage: python3 upload-to-r2.py <pdf_path> <topic_slug> <topic_name> <prediction> <probability> <target_date>
+Usage:
+  python3 upload-to-r2.py --md-path <report.md> <pdf_path> <topic_slug> <topic_name>
+  python3 upload-to-r2.py <pdf_path> <topic_slug> <topic_name> <prediction> <probability> <target_date>
+
+  --md-path  Parse the Prediction section from the markdown file automatically.
+             When used, prediction/probability/target_date are not needed as args.
 """
 import json, sys, os, re, subprocess, traceback
 from datetime import datetime
@@ -125,17 +130,77 @@ def update_manifest(topic_slug, topic_name, date_str, filename, url, prediction,
         return False
 
 
-if __name__ == "__main__":
-    if len(sys.argv) < 7:
-        print("Usage: python3 upload-to-r2.py <pdf_path> <topic_slug> <topic_name> <prediction> <probability> <target_date>")
-        sys.exit(1)
+def parse_prediction(md_path):
+    """Parse the Prediction section from a Watch Report markdown file.
+    Returns (prediction_text, probability_int, target_date_str).
+    Handles **bold:** markdown markers.
+    """
+    with open(md_path) as f:
+        md = f.read()
+    pred_match = re.search(r'## Prediction\s*\n(.*?)(?=\n---)', md, re.DOTALL)
+    if not pred_match:
+        return '', 0, ''
+    pred_raw = pred_match.group(1)
 
-    pdf_path = sys.argv[1]
-    topic_slug = sys.argv[2]
-    topic_name = sys.argv[3]
-    prediction = sys.argv[4]
-    probability = int(sys.argv[5])
-    target_date = sys.argv[6]
+    # Prediction sentence: first non-blank line that isn't a **Key:** metadata line
+    pred_text = ''
+    for line in pred_raw.strip().split('\n'):
+        line = line.strip()
+        if not line:
+            continue
+        if re.match(r'\*{1,2}\w+\s*:\*{1,2}', line):
+            continue
+        pred_text = line
+        break
+
+    # Probability: **Probability:** 75%  or  Probability: 75%
+    prob_val = 0
+    prob_m = re.search(r'\*{0,2}Probability\s*:\*{0,2}\s*(\d+)%', pred_raw)
+    if prob_m:
+        prob_val = int(prob_m.group(1))
+
+    # Target: **Target:** June 2027  or  Target: June 2027
+    target_val = ''
+    target_m = re.search(r'\*{0,2}Target\s*:\*{0,2}\s*(.+?)(?:\n|$)', pred_raw)
+    if target_m:
+        target_val = target_m.group(1).strip().replace('**', '')
+
+    return pred_text, prob_val, target_val
+
+
+if __name__ == "__main__":
+    use_md = False
+    md_path = None
+    args = list(sys.argv[1:])
+
+    if args and args[0] == '--md-path':
+        use_md = True
+        md_path = args[1]
+        args = args[2:]  # remove --md-path and its value
+
+    if use_md:
+        if len(args) < 3:
+            print("Usage:")
+            print("  python3 upload-to-r2.py --md-path <report.md> <pdf_path> <topic_slug> <topic_name>")
+            print("  python3 upload-to-r2.py <pdf_path> <topic_slug> <topic_name> <prediction> <probability> <target_date>")
+            sys.exit(1)
+    else:
+        if len(args) < 6:
+            print("Usage:")
+            print("  python3 upload-to-r2.py --md-path <report.md> <pdf_path> <topic_slug> <topic_name>")
+            print("  python3 upload-to-r2.py <pdf_path> <topic_slug> <topic_name> <prediction> <probability> <target_date>")
+            sys.exit(1)
+
+    pdf_path = args[0]
+    topic_slug = args[1]
+    topic_name = args[2]
+
+    if use_md:
+        prediction, probability, target_date = parse_prediction(md_path)
+    else:
+        prediction = args[3]
+        probability = int(args[4])
+        target_date = args[5]
 
     # Extract date from PDF filename (DD-MM-YYYY → YYYY-MM-DD)
     basename = os.path.basename(pdf_path)

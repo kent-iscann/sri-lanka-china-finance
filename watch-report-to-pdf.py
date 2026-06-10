@@ -188,32 +188,21 @@ def parse_watch_report(md_path, prev_md_path=None):
     disclaimer = disc_match.group(1).strip() if disc_match else ''
 
     # ---- Notes ----
-    notes = {}
+    notes = ''
     notes_match = re.search(r'## Notes\s*\n(.*?)(?=\n---|\Z)', content, re.DOTALL)
     if notes_match:
         raw_notes = notes_match.group(1).strip()
-        # Try single-line prose format first: "This report was generated on <date> based on open-source reporting available as of <date>..."
+        # Single-line prose format: "This report was generated on <date> based on..."
         if 'This report was generated' in raw_notes:
-            m_gen = re.search(r'generated on (.+?) based on', raw_notes)
-            m_src = re.search(r'available as of (.+?)\. The probability', raw_notes)
-            m_meth = re.search(r'probability reflects (.+?)\. The next', raw_notes)
-            m_rev = re.search(r'next review is scheduled for (.+?)\.', raw_notes)
-            if m_gen: notes['generated'] = m_gen.group(1).strip()
-            if m_src: notes['sources'] = m_src.group(1).strip()
-            if m_meth: notes['methodology'] = m_meth.group(1).strip()
-            if m_rev: notes['next_review'] = m_rev.group(1).strip()
+            notes = raw_notes
         else:
-            # Old multi-line format with individual *italic* entries
+            # Old multi-line format with individual *italic* entries — collapse to single string
+            lines = []
             for line in raw_notes.split('\n'):
                 line = line.strip().strip('*').strip()
-                if 'Report generated:' in line:
-                    notes['generated'] = line.split(':', 1)[1].strip()
-                elif 'Sources:' in line:
-                    notes['sources'] = line.split(':', 1)[1].strip()
-                elif 'Methodology:' in line:
-                    notes['methodology'] = line.split(':', 1)[1].strip()
-                elif 'Next review:' in line:
-                    notes['next_review'] = line.split(':', 1)[1].strip()
+                if line:
+                    lines.append(line)
+            notes = ' '.join(lines)
 
     return {
         'report_date': report_date,
