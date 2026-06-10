@@ -1,7 +1,7 @@
 ---
 title: Timeline of China-Sri Lanka Financial Relations
 created: 2026-05-20
-updated: 2026-06-03
+updated: 2026-06-10
 type: timeline
 tags: [timeline, debt, infrastructure, diplomacy, politics, economics]
 sources: [raw/papers/cari-chinese-lending-sri-lanka-2022.md, raw/papers/hkust-debt-trap-myth-sri-lanka-2019.md, raw/articles/jamestown-bri-blowback-sri-lanka-2022.md]
@@ -125,14 +125,17 @@ Dr. Kulani Wijayabahu (University of Colombo) published an analysis in the Lowy 
 - Colombo Security Conclave is shaping India's broader Indian Ocean security architecture.
 - India-UAE development of Trincomalee as an energy hub extends Sri Lanka's strategic value beyond ports to fuel, pipelines, and energy resilience.
 
-### April 2026 -- IMF Approves $700M Disbursement After Fifth and Sixth Reviews
-The IMF provisionally approved the disbursement of approximately $700 million following its combined fifth and sixth reviews of Sri Lanka's performance under the Extended Fund Facility arrangement, signaling continued confidence in the country's reform progress and macroeconomic stabilization.
+### May 27, 2026 -- IMF Completes Combined 5th and 6th EFF Reviews (PR26/172)
+The IMF Executive Board completed the combined Fifth and Sixth Reviews under the Extended Fund Facility, providing SDR508 million (about US$695 million) in immediate access. Total purchases under the EFF arrangement reached SDR1.778 billion (about US$2.4 billion). All end-December 2025 quantitative performance criteria were met. Most structural benchmarks were met or implemented with a delay. Staff recommended approval of a waiver on new external arrears and exchange restrictions. Debt restructuring is nearing completion, but debt sustainability risks remain high. The war in the Middle East and Cyclone Ditwah aftermath pose downside risks, but the economy is expected to remain resilient. IMF staff discussions took place March 25 – April 9, 2026 in Colombo.
 
 ### 2024 -- NPP Electoral Landslide and Dissanayake's Presidency
 The National People's Power (NPP) alliance, a coalition of socialist parties led by Anura Kumara Dissanayake's Janatha Vimuktha Peramuna (JVP), won a supermajority in snap parliamentary elections in November 2024, securing 159 of 225 seats (up from just 3 seats in the previous parliament). The victory was widely interpreted as public rejection of the corrupt, elite-dominated political status quo and the leaders associated with Sri Lanka's economic collapse. Despite campaigning against IMF reforms, Dissanayake maintained the existing program, arguing recovery was too fragile to risk disruption. Sri Lanka's GDP grew 5% in 2024.
 
 ### 2025 -- India-Sri Lanka Defense Cooperation Agreement
 India and Sri Lanka signed their first formalized framework for bilateral security relations, deepening defense ties. This followed India being Sri Lanka's most active supporter during the 2022 twin crises and after Cyclone Ditwah devastated Sri Lanka in 2025. India's total investment in Sri Lanka exceeded $2 billion.
+
+### June 9, 2026 -- Sri Lanka's Tourism Push in China; 70th Anniversary of Diplomatic Relations Announced
+Sri Lanka's Deputy Chief of Mission in Beijing highlighted tourism as a new bridge strengthening China-Sri Lanka ties. Key data: Sri Lanka welcomed more than 2 million international visitors in 2025; 23 direct flights per week operate between Sri Lanka and the Chinese mainland; Chinese citizens receive free tourist Electronic Travel Authorization for stays up to 30 days. Both countries agreed to jointly commemorate the 70th anniversary of diplomatic relations in 2027.
 
 ### December 2025 Statistics -- Updated Bilateral Debt Figures (Published April 2026)
 Updated Sri Lankan treasury data revealed bilateral debt figures as of December 2025:
@@ -166,7 +169,11 @@ This confirms China remains Sri Lanka's largest bilateral creditor by a wide mar
 || **India's disaster relief (Cyclone Ditwah)** | **$450 million** | **South Asia Monitor** |
 || **India's total investment in Sri Lanka** | **>$2 billion** | **CRS Report IF10213 (2026)** |
 || **Sri Lanka GDP growth (2024)** | **5%** | **World Bank / CRS Report IF10213** |
-|| **IMF EFF disbursement (April 2026, 5th/6th reviews)** | **~$700 million** | **IMF PR26113** |
-|| **NPP parliamentary seats (Nov 2024)** | **159/225 (from 3)** | **CRS Report IF10213** |
+||| **IMF EFF disbursement (April 2026, 5th/6th reviews)** | **~$700 million** | **IMF PR26113** |
+||| **IMF EFF combined 5th/6th reviews disbursement (May 2026)** | **SDR508M (~$695M); total access SDR1.778B (~$2.4B)** | **IMF PR26/172** |
+||| **NPP parliamentary seats (Nov 2024)** | **159/225 (from 3)** | **CRS Report IF10213** |
+||| **Sri Lanka international visitors (2025)** | **>2 million** | **Guangming Online, June 9 2026** |
+||| **Direct flights Sri Lanka-China (weekly)** | **23** | **Guangming Online, June 9 2026** |
+||| **70th anniversary of China-Sri Lanka diplomatic relations** | **2027** | **Multiple sources** |
 
 See also: [[debt-trap-debate]], [[hambantota-port]], [[belt-and-road-initiative]], [[key-conclusions]]

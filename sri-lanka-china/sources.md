@@ -140,3 +140,27 @@
 30. "Australia should see Sri Lanka as more than a China-India contest" -- Lowy Institute (May 14, 2026)
     https://www.lowyinstitute.org/the-interpreter/australia-should-see-sri-lanka-more-china-india-contest
     By Dr. Kulani Wijayabahu (University of Colombo). Argues Sri Lanka's post-crisis recovery is a test case for small-state autonomy. Provides specific details on the January 2025 China-Sri Lanka joint statement on BRI cooperation (logistics, green development, digital economy), the 2025 IORA-BIMSTEC memorandum, Colombo Security Conclave, and Trincomalee energy hub development. Key source for understanding the multilateral competition beyond binary China-India framing.
+
+---
+
+## Academic Research & Trilateral Analysis
+
+31. "China-India cooperation and competition in Sri Lanka under the 'Belt and Road' Initiative" -- Asian Review of Political Economy (Springer, June 2026)
+    https://link.springer.com/article/10.1007/s44216-026-00077-9
+    Open-access academic article analyzing China-India-Sri Lanka trilateral dynamics. Argues India acts to hedge against Chinese influence to maintain South Asian regional hegemony. Proposes a future cooperation framework: welcoming Indian merchant ships to Hambantota Port, encouraging Chinese-Indian joint investment in Hambantota Park and Colombo Port City, and jointly providing humanitarian assistance to Sri Lanka. Emphasizes that China-Sri Lanka cooperation is not targeted at any third party and that trilateral consensus is key.
+
+---
+
+## Economic Relations, Tourism & Diplomacy
+
+32. "Sri Lankan diplomat highlights tourism's role in deepening China-Sri Lanka ties" -- Guangming Online (June 9, 2026)
+    https://en.gmw.cn/2026-06/09/content_38819578.htm
+    Interview with Poorneta Gunasekera, Minister and Deputy Chief of Mission at the Embassy of Sri Lanka in China. Key data: Sri Lanka welcomed more than 2 million international visitors in 2025; 23 direct flights per week between Sri Lanka and Chinese mainland (SriLankan Airlines, Air China, China Eastern, China Southern); Chinese citizens receive free tourist ETA for stays up to 30 days. Both countries preparing to celebrate the 70th anniversary of diplomatic relations in 2027. Tourism framed as a new bridge strengthening historical Silk Road connections.
+
+---
+
+## IMF Program & Debt Restructuring Updates
+
+33. "IMF Executive Board Completes the Combined Fifth and Sixth Reviews Under the Extended Fund Facility for Sri Lanka" -- IMF Press Release PR26/172 (May 27, 2026)
+    https://www.elibrary.imf.org/view/journals/002/2026/111/article-A000-en.pdf
+    Official IMF press release. The combined 5th and 6th reviews provide SDR508 million (about US$695 million), bringing total purchases under the EFF to SDR1.778 billion (about US$2.4 billion). Performance under the program was generally strong. All end-December 2025 quantitative performance criteria were met. Most structural benchmarks were met or implemented with a delay. Staff recommended approval of a waiver on new external arrears and exchange restrictions. Discussions took place March 25 – April 9, 2026 in Colombo. Debt restructuring is nearing completion, but debt sustainability risks remain high.

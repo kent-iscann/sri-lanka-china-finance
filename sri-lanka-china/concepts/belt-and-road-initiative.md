@@ -1,7 +1,7 @@
 ---
 title: Belt and Road Initiative in Sri Lanka
 created: 2026-05-20
-updated: 2026-06-03
+updated: 2026-06-10
 type: concept
 tags: [BRI, infrastructure, diplomacy, geopolitics]
 sources: [raw/papers/cari-chinese-lending-sri-lanka-2022.md, raw/papers/hkust-debt-trap-myth-sri-lanka-2019.md, raw/articles/jamestown-bri-blowback-sri-lanka-2022.md]
@@ -58,6 +58,14 @@ Following President Dissanayake's January 2025 Beijing visit, China and Sri Lank
 
 ## India's Total Investment in Sri Lanka
 According to the U.S. Congressional Research Service (2026), total Indian investment in Sri Lanka exceeds **$2 billion**, making India one of the country's largest foreign investors alongside China. Sri Lanka's 2024 GDP growth reached **5%**.
+
+## Tourism as Economic Bridge (2025-2026)
+Tourism has emerged as a growing dimension of China-Sri Lanka economic relations. In June 2026, Sri Lanka's Deputy Chief of Mission in Beijing emphasized the Chinese market's importance for tourism recovery. Key metrics:
+- **>2 million international visitors** to Sri Lanka in 2025
+- **23 direct flights per week** connecting Sri Lanka and the Chinese mainland (operated by SriLankan Airlines, Air China, China Eastern, China Southern)
+- **Visa-free ETA** for Chinese citizens (ordinary, official, service, diplomatic passports) for stays up to 30 days
+- Both countries are preparing to celebrate the **70th anniversary of diplomatic relations in 2027**
+- Sri Lanka's diverse offerings (beaches, wildlife, cultural heritage, tea plantations, wellness, adventure sports) are being marketed specifically to Chinese tourists
 
 ## Updated Debt Figures (December 2025)
 

@@ -1,7 +1,7 @@
 ---
 title: IMF, China, and Sri Lanka's Debt Restructuring
 created: 2026-05-27
-updated: 2026-06-03
+updated: 2026-06-10
 type: concept
 tags: [IMF, debt restructuring, geopolitics, China-US rivalry, creditor governance, voting shares]
 sources: [raw/articles/stair-imf-geopolitics-2026.md]
@@ -48,9 +48,20 @@ Economist Talal Rafi (a Sri Lanka-based policy advisor and former ADB consultant
 2. **Voting share reform**: Adjust quotas to reflect modern economic realities (particularly China's larger share).
 3. **Agreed debt restructuring framework**: A G20-level agreement on multilateral debt restructuring, transparency, and comparability of treatment to prevent future Sri Lanka-style standoffs between the US and China.
 
-## April 2026: IMF Approves $700M Disbursement
+## May 2026: IMF Completes Combined 5th and 6th Reviews (PR26/172)
 
-In April 2026, the IMF provisionally approved the disbursement of approximately **$700 million** following its combined fifth and sixth reviews of Sri Lanka's performance under the Extended Fund Facility (EFF) arrangement. This continued disbursement reflects the IMF's assessment that Sri Lanka's reform program remains on track, with macroeconomic stabilization progressing and GDP growth reaching 5% in 2024. However, the IMF and analysts note that poverty reduction and medium-term growth challenges remain significant.
+On May 27, 2026, the IMF Executive Board completed the combined Fifth and Sixth Reviews of Sri Lanka's EFF-supported program (Press Release PR26/172). Key details:
+
+- **Disbursement**: SDR508 million (about US$695 million) in immediate access
+- **Total purchases under EFF**: SDR1.778 billion (about US$2.4 billion) to date
+- **Performance**: All end-December 2025 quantitative performance criteria were met; most structural benchmarks met or implemented with delay
+- **Waivers**: Staff recommended approval of waiver on new external arrears and exchange restrictions
+- **Debt restructuring**: Nearing completion, but debt sustainability risks remain high
+- **Risks**: War in the Middle East and Cyclone Ditwah aftermath pose downside risks, but economy expected to remain resilient
+- **Staff discussions**: March 25 – April 9, 2026 in Colombo
+- **Reform priorities**: Medium-term revenue strategy, exchange rate flexibility, phasing out balance-of-payments measures, structural reforms for investment climate
+
+This continued disbursement reflects the IMF's assessment that Sri Lanka's reform program remains firmly on track.
 
 ---
 

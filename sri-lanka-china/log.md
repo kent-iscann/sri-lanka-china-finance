@@ -55,3 +55,20 @@
   - index.md: Updated last-updated date and added source count.
 
 - **Total sources**: 28 → 30
+
+## [2026-06-10] ingest | 3 new sources added (Springer, Guangming Online, IMF PR26/172)
+
+- **Source #31**: "China-India cooperation and competition in Sri Lanka under the 'Belt and Road' Initiative" -- Asian Review of Political Economy (Springer, June 2026). New academic analysis of China-India-Sri Lanka trilateral dynamics. Proposes future cooperation framework including Indian merchant ships at Hambantota, joint Chinese-Indian investment in Hambantota Park and Colombo Port City. Emphasizes China-Sri Lanka cooperation is not targeted at any third party.
+
+- **Source #32**: "Sri Lankan diplomat highlights tourism's role in deepening China-Sri Lanka ties" -- Guangming Online (June 9, 2026). Key new data: >2M international visitors in 2025, 23 direct flights/week, visa-free ETA for Chinese citizens, 70th anniversary of diplomatic relations in 2027. Tourism framed as new bridge strengthening historical Silk Road connections.
+
+- **Source #33**: "IMF Executive Board Completes the Combined Fifth and Sixth Reviews" -- IMF PR26/172 (May 27, 2026). Official press release with precise figures: SDR508M (~$695M) disbursement, total EFF access SDR1.778B (~$2.4B), performance criteria met, waiver on external arrears, debt restructuring nearing completion.
+
+- **Wiki pages updated**:
+  - timeline/china-sri-lanka-timeline.md: Replaced vague April 2026 IMF entry with detailed May 27 2026 entry; added June 9 2026 tourism/70th anniversary entry; added 4 new statistics (IMF PR26/172 figures, visitor numbers, flight count, 70th anniversary).
+  - concepts/belt-and-road-initiative.md: Added "Tourism as Economic Bridge" section with 2025-2026 data.
+  - concepts/imf-geopolitics.md: Replaced brief April 2026 entry with detailed May 2026 IMF PR26/172 section.
+  - sources.md: Added 3 new source entries (total now 33).
+  - index.md: Updated last-updated date and source count (30 → 33).
+
+- **Total sources**: 30 → 33
