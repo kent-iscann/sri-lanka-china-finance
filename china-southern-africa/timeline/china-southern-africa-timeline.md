@@ -25,3 +25,5 @@
 - **May 2026:** Chatham House report notes China's BRI infrastructure (Lobito Corridor, TAZARA railway) has created entrenched critical mineral supply chains that Western nations cannot easily replicate.
 - **May 2026:** Chinese firm confirms rare earth discovery (neodymium, praseodymium) in Tanzania's Njombe Region.
 - **June 2026:** Flooding in western Angola suspends rail traffic along the Lobito Corridor, disrupting a key export route for critical minerals from DRC/Zambia.
+- **June 2026:** EU launches first-ever investment roadshow in South Africa, announcing €12B package under the 2025 EU-South Africa Clean Trade and Investment Partnership. South Africa demands beneficiation as condition for mineral access.
+- **June 2026:** Chinese company Hongji Mining Co. Ltd partners with Tanzanian government for rare earth exploration at Mkiu Village, Ludewa District, Njombe Region. Tanzania confirmed as holder of graphite, nickel, helium, and rare earth reserves.
