@@ -317,16 +317,9 @@ def generate_pdf(md_path, output_path, prev_md_path=None):
         disc_html = f'<div class="disclaimer"><p>{s["disclaimer"]}</p></div>'
 
     # Notes
-    notes_html = '<div class="notes">'
-    if s['notes'].get('generated'):
-        notes_html += f'<p><em>Report generated: {s["notes"]["generated"]}</em></p>'
-    if s['notes'].get('sources'):
-        notes_html += f'<p><em>Sources: {s["notes"]["sources"]}</em></p>'
-    if s['notes'].get('methodology'):
-        notes_html += f'<p><em>Methodology: {s["notes"]["methodology"]}</em></p>'
-    if s['notes'].get('next_review'):
-        notes_html += f'<p><em>Next review: {s["notes"]["next_review"]}</em></p>'
-    notes_html += '</div>'
+    notes_html = ''
+    if s['notes']:
+        notes_html = f'<div class="notes"><p>{s["notes"]}</p></div>'
 
     prob = s['probability']
     target = s['target_date']
