@@ -80,7 +80,4 @@ This free Watch Report is provided by IScann Group for informational and strateg
 ---
 
 ## Notes
-*Report generated: 2026-05-20*
-*Sources: Based on open-source reporting available as of 2026-05-20*
-*Methodology: Probability reflects IScann Group's analytic judgment, not a statistical model, unless otherwise stated.*
-*Next review: 2026-08-20*
+This report was generated on 2026-05-20 based on open-source reporting available as of 2026-05-20. The probability reflects IScann Group's analytic judgment, not a statistical model, unless otherwise stated. The next review is scheduled for 2026-06-01.
