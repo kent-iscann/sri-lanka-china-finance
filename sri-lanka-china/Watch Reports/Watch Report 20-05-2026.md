@@ -52,7 +52,7 @@ The technological case for renewed Chinese infrastructure engagement is strong b
 ---
 
 ## Probability Triggers
-| Thing | Direction |
+| Event | Direction |
 |-------|-----------|
 | Sri Lanka and China announce a new infrastructure MoU | Up |
 | India announces a major new infrastructure investment in Sri Lanka | Down |
