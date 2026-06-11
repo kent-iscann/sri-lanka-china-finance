@@ -20,4 +20,11 @@ China → Kazakhstan → Caspian Sea → Azerbaijan → Georgia → Turkey → E
 - Baku–Tbilisi–Kars railway (reopened June 2026)
 - Batumi and Poti ports
 - East-West highway (EU-funded)
-- Anaklia Deep Sea Port (planned, Chinese-financed — controversial)
+- Anaklia Deep Sea Port (planned, Chinese-financed — controversial; Chinese consortium selected over US company, cited in HR 7668 as national security concern)
+
+## 2026 developments
+- Container traffic grew 71% in January-August 2025
+- Cargo volume in 2024 was 15x higher than 2023
+- Turkey-Armenia trade resumption (June 2026) could create alternative routes bypassing Georgia
+- EU weighing investment in Nakhchivan railway project as part of TCTC (contingent on EBRD feasibility study)
+- EU committed €500M under Caucasus Transmission Network to synchronize Armenia-Georgia power systems
