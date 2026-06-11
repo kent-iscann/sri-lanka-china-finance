@@ -1,7 +1,7 @@
 # Watch Report 06-06-2026
 
 ## Metadata
-**Topic:** Philippines — Islamic Extremism and Bangsamoro Transition
+**Topic:** Islamic Extremism and Bangsamoro Transition
 **Geography:** Philippines, Mindanao
 
 ---
@@ -62,7 +62,7 @@ China's digital infrastructure investments in Southeast Asia (under BRI) give Be
 ---
 
 ## Probability Triggers
-| Thing | Direction |
+| Event | Direction |
 |-------|-----------|
 | Marcos administration announces BTA extension with new Manila-appointed oversight powers | Up |
 | MILF publicly rejects the extension terms or boycotts the process | Down |
