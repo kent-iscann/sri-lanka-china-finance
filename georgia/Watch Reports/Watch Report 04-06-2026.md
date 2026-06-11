@@ -66,7 +66,7 @@ Georgia's ICT sector continues to grow, but the technological dimension of Georg
 ---
 
 ## Probability Triggers
-| Thing | Direction |
+| Event | Direction |
 |-------|-----------|
 | US announces new security or economic commitment to Georgia | Down |
 | EU grants Georgia candidate status or advances accession talks | Down |
