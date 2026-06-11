@@ -73,7 +73,7 @@ Turkey's normalization with Armenia includes potential cooperation on telecommun
 ---
 
 ## Probability Triggers
-| Thing | Direction |
+| Event | Direction |
 |-------|-----------|
 | Pashinyan announces a deal with opposition parties on constitutional reform | Down |
 | Azerbaijan escalates border incidents or makes new military threats | Up |
