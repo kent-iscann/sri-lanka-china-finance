@@ -11,3 +11,8 @@ Russia remains Kazakhstan's most consequential and complicated external relation
 
 ## Current dynamic (2025–2026)
 Russia is trying to anchor Kazakhstan more firmly into its sanctions-era architecture. Putin's May 2026 visit to Astana focused on energy, logistics, nuclear cooperation, and new technology. Kazakhstan is trying to turn that embrace into leverage rather than dependence — a delicate balancing act with narrowing margins for error.
+
+## Sanctions escalation
+- **EU 20th sanctions package (April 2026):** For the first time, the EU can block supplies of sanctioned goods to third countries systematically used for circumvention. Kyrgyzstan was the first target. As a close EAEU partner with documented sanctions-evasion flows, Kazakhstan faces growing secondary sanctions risk.
+- **UK sanctions:** UK lowered Russian oil price cap from $47.60 to $44.10 (January 2026) and sanctioned 18 crypto exchanges/banks/individuals using crypto to help Russia bypass trade blockades.
+- **AI adoption gap:** Kazakhstan's AI adoption rate (15.9%) now exceeds Russia's (9.5%) per Microsoft's Global AI Diffusion ranking — a notable shift in the regional technology balance.

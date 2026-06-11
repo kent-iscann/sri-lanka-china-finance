@@ -42,7 +42,7 @@
 - Cryptocurrency mining surges as Chinese miners relocate to Kazakhstan, straining the power grid. Blackouts and protests follow.
 
 ## 2023
-- Tokayev consolidates power, removes Nazarbyev from key positions.
+- Tokayev consolidates power, removes Nazarbayev from key positions.
 - Government announces AI and digital transformation strategy.
 - Kazakhstan applies to host major international tech events.
 
@@ -56,8 +56,9 @@
 - EU increases engagement with Central Asia after Ukraine war shows need for diversified energy sources.
 - Russia increases pressure on Kazakhstan to serve as a sanctions-bypass corridor for trade and energy flows.
 - Putin-Tokayev meetings (May) highlight the push-pull dynamic: Russia anchoring, Kazakhstan leveraging.
+- China-Kazakhstan trade reaches $227.9 billion. Chinese CHPL exports to Kazakhstan rise to $931M.
 
 ## 2026
-- **April:** Data Center & AI Infrastructure Central Asia forum held in Astana.
-- **May:** Putin visits Kazakhstan; both sides discuss energy, logistics, nuclear cooperation.
-- **June:** AI & Digital Bridge 2026 forum announced for October, organized by the Ministry of Artificial AI and Digital Development. UK lowers Russian oil price cap, increasing secondary sanctions risk for Kazakhstan.
+- **April:** Data Center & AI Infrastructure Central Asia forum held in Astana. UAE announces withdrawal from OPEC/OPEC+. EU adopts 20th sanctions package with new third-country circumvention tool; Kyrgyzstan first target.
+- **May:** Putin visits Kazakhstan; both sides discuss energy, logistics, nuclear cooperation. Kazakhstan ranks 70th/147 in Microsoft Global AI Diffusion ranking (15.9% adoption, leads Central Asia/EAEU). StartupBlink 2026: Central Asia startup ecosystem grew 81% (fastest globally); Kazakhstan ranks 71st. Tokayev issues two-year military modernization deadline. Turkey's TPOA enters Kazakhstan energy market; ANKA UAV production deal signed.
+- **June:** Kazakhstan revises 2026 oil production forecast down to 98M tons (from 100.5M) due to Tengiz outages and CPC pipeline issues. Government develops national crypto reserve plan ($500M-$1B). Kazakhstan climbs 13 places to 42nd/161 in World Bank HCI+. Kazakhstan maintains neutrality on Iran-Israel war while leaning toward Gulf states; suspends joint projects with Iran. GITEX Central Asia & Caucasus 2026 announced for Astana.

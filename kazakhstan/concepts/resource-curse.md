@@ -12,6 +12,12 @@ Kazakhstan's economy remains heavily dependent on oil and gas. Hydrocarbons acco
 - **Mining:** Uranium (world's largest producer), rare earths, copper, zinc
 - **Agriculture:** Wheat exports, but limited value-added processing
 - **Transit:** Leveraging geographic position as a China-Europe corridor (BRI, Middle Corridor)
+- **National crypto reserve:** Government developing $500M-$1B crypto reserve from seized digital assets and state-backed mining proceeds.
+
+## OPEC+ dimension
+- **UAE withdrawal (April 2026):** The UAE left OPEC/OPEC+, the fifth voluntary departure in a decade. OPEC's share of global crude fell below 30% for the first time.
+- **Kazakhstan as over-producer:** Kazakhstan is OPEC+'s most consistent over-producer. The same pressures that drove Abu Dhabi out apply in Astana, but CPC pipeline dependence limits how quickly Kazakhstan could realistically leave.
+- **2026 production cut:** Kazakhstan revised its 2026 oil production target down to 98 million tons (from 100.5M) due to Tengiz field outages and CPC pipeline issues. This may ease OPEC+ compliance friction but comes at a revenue cost.
 
 ## Structural headwinds
 - Oil and gas revenues fund the state apparatus and social spending. Diversification threatens vested interests.

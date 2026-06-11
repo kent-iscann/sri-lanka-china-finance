@@ -17,3 +17,6 @@ President of Kazakhstan since June 2019, succeeding Nursultan Nazarbayev. Tokaye
 - Digital transformation and AI strategy
 - Multi-vector foreign policy diversification
 - Tightening sanctions compliance while preserving Russian economic ties
+- **Military modernization:** Issued strict two-year deadline for comprehensive armed forces overhaul, including ANKA UAV production deal with Turkey.
+- **Human capital development:** Kazakhstan rose 13 places to 42nd/161 in World Bank HCI+ by end of 2025, driven by education and healthcare reforms.
+- **National crypto reserve:** Backed development of $500M-$1B national crypto reserve from seized digital assets and state-backed mining.
