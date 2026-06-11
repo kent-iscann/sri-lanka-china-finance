@@ -1,7 +1,7 @@
 # Watch Report 04-06-2026
 
 ## Metadata
-**Topic:** Kazakhstan — Global Competitiveness
+**Topic:** Kazakhstan Economy
 **Geography:** Kazakhstan, Central Asia
 
 ---
@@ -76,7 +76,7 @@ The key technological risk is that Kazakhstan becomes a **transit point** for Ch
 ---
 
 ## Probability Triggers
-| Thing | Direction |
+| Event | Direction |
 |-------|-----------|
 | Major Western sanctions designation against a Kazakh entity for sanctions-bypass | Up |
 | Russia successfully pressures Kazakhstan into formal sanctions-bypass arrangement | Up |
