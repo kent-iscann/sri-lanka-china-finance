@@ -52,7 +52,7 @@ China's technological edge in Southern African mining is twofold: extraction/ref
 ---
 
 ## Probability Triggers
-| Thing | Direction |
+| Event | Direction |
 |-------|-----------|
 | Chinese firm announces major new in-country processing facility in Zimbabwe/Zambia/DRC | Up |
 | Host nation expropriates or forces renegotiation of a Chinese mining concession | Down |
