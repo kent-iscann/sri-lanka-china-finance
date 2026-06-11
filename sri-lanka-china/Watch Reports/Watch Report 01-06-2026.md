@@ -82,7 +82,7 @@ However, the global technology decoupling trend continues to constrain Chinese d
 ---
 
 ## Probability Triggers
-| Thing | Direction |
+| Event | Direction |
 |-------|-----------|
 | Sri Lanka and China sign a new infrastructure MoU | Up |
 | India announces a major new port or logistics investment in Sri Lanka | Down |
