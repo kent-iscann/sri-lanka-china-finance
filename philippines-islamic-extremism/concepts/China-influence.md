@@ -24,3 +24,6 @@ Overview of how Beijing leverages the South China Sea dispute to expand influenc
 - Diverts Philippine military resources (navy, air force) from internal security to South China Sea patrol
 - Creates political pressure on Marcos to demonstrate sovereignty while managing economic ties with Beijing
 - China takes no direct position on Mindanao situation but benefits from any Philippine instability that weakens the US-Philippine alliance
+- **2026:** The Hormuz energy crisis (March 2026) pushed the Philippines into a national energy emergency, prompting Marcos to signal openness to joint oil and gas talks with China at Reed Bank — a potential diplomatic opening that could reshape the SCS dynamic but faces constitutional hurdles (1987 Constitution requires "full control and supervision" over natural resources).
+- **2026:** Marcos-Duterte political rupture (House impeached VP Sara Duterte in May 2026) is eroding executive coordination on foreign policy, complicating Manila's ability to present a unified position on the SCS and ASEAN chairship agenda.
+- **2026:** Balikatan 2026 was the largest edition ever (17,000 troops from 7 nations, Japan deploying combat troops for the first time since 1945). China views this as directed against it, undermining confidence-building measures like the coast guard MoU update.
